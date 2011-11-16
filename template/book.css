@@ -1,0 +1,83 @@
+/* mdepub book style sheet
+
+  This style sheet is provided as a starting point for formatting an ebook full
+  of prose.
+
+  Paragraphs will not have spaces before and after then and will be indented by
+  2em, but paragraphs following headings and breaks WILL be preceeded by a space
+  and not be indented.
+
+  Read through the comments below and look for pre-defined classes that you
+  should use as you format your publication. Add any additional style sheet code
+  you need for your project at the end of this file.
+
+*/
+
+/* Indent first line by 2em */
+	p {
+		margin-top: 0; margin-bottom: 0;
+		text-indent: 2em; text-align: justify;
+	}
+
+/* Don't indent first paragraph */
+	h2 + p, h3 + p, div.secbreak + p, hr + p, blockquote.continue + p {
+		margin-top: 1em;
+		text-indent: 0;
+	}
+
+/* Headings */
+	h1, h2 { page-break-before: always; font-weight: normal; text-align: center; }
+	h1 { margin-top: 3em; margin-bottom: 3em; font-size: 200%; }
+	h2 { margin-top: 3em; margin-bottom: 1em; font-size: 125%; }
+	h3 { margin-top: 2em; margin-bottom: 1em; font-size: 115%;
+		text-align: left; font-weight: bold; }
+
+/* Various kinds of blocks:
+
+	.break - start a new page
+	.center - center each line in this block/paragraph
+	.spaced - remove paragraph indent; add margin above and below
+	.left - remove full justification and inden; align neft; add margin above
+		and below
+	.unspaced - remove paragraph indent; do not add margin above and below
+	.attribution - align right
+	hr - display a horizontal rule 30% of text width
+	.im - centered div for displaying an image
+
+*/
+	blockquote { margin: 1em 2em 1em 2em; line-height: 100%; }
+	.break { page-break-before: always; }
+	.center, .center p, .spaced, .spaced p, .left, .left p, li p, .im {
+		margin-top: 1em; margin-bottom: 1em; text-indent: 0;
+	}
+	.center, .center p, .im { text-align: center; }
+	.left, .left p { text-align: left; }
+	.unspaced p { margin-top: 0; margin-bottom: 0; text-indent: 0; }
+	ul, ol { margin-top: 1em; margin-bottom: 1em; }
+	li p { text-align: justify; }
+	.attribution, blockquote .attribution { text-align: right; }
+	hr {
+		margin-top: 1em; margin-bottom: 1em;
+		border: 0; width: 30%; height: 1px;
+		color: gray; background-color: gray;
+		margin-left: 35%; margin-right: 35%;
+	}
+
+/* Tables */
+table { margin-left: auto; margin-right: auto; text-indent: 0; }
+
+/* Font style for a large block */
+.b { font-weight: bold; }
+.i { font-style: italic; }
+
+/* Fonts */
+.big { font-size: 125%; }
+.giant { font-size: 200%; }
+.fixed { font-family: monospace; }
+sup { vertical-align: text-top; font-size: 66%; }
+sub { vertical-align: text-bottom; font-size: 66%; }
+
+
+/* ----------------------------------------------------------------------
+  Add your custom stylesheet code for this publication below this line.
+---------------------------------------------------------------------- */

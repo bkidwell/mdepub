@@ -1,0 +1,30 @@
+require version: "0.1" # Require at least this version of mdepub
+
+title: "Alice's Adventures in Wonderland"
+authors: "Lewis Carroll"
+author sort: "Carroll, Lewis"
+publication date: "26 Nov 1865" # must be a string D MMM YYYY
+tags: [children, fiction, fantasy]
+guid: 8220b2f8-0f38-11e1-962f-889ffa5498bb
+
+# Uncomment this to customize the base filename ($filename.md, $filename.html, etc.)
+# filename: "Alices Adventures in Wonderland"
+
+# Book description using Markdown syntax.
+description: |
+  *Alice's Adventures in Wonderland* (commonly shortened to *Alice in Wonderland*) is an 1865 novel written by English author Charles Lutwidge Dodgson under the pseudonym Lewis Carroll. It tells of a girl named Alice who falls down a rabbit hole into a fantasy world (Wonderland) populated by peculiar, anthropomorphic creatures. The tale plays with logic, giving the story lasting popularity with adults as well as children. It is considered to be one of the best examples of the literary nonsense genre, and its narrative course and structure have been enormously influential, especially in the fantasy genre.
+
+smart quotes: true # Convert ' and " to proper left and right quotes
+stretch cover image: false # Set to true to distort cover.jpg and fill screen
+
+# Lowest-level heading (H1, H2, H3, etc.) to appear in Table of Contents
+chapter head level: 2
+
+# Page margins given in Points. Use a value of '~' to retain Calibre defaults.
+# Calibre defaults are 5pt on top and bottom and 0pt on left and right.
+margin:
+  top: ~
+  left: 8
+  right: 8
+  bottom: ~
+
