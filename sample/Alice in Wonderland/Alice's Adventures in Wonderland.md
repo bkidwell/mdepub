@@ -1,104 +1,105 @@
 # Alice’s Adventures in Wonderland
 
-#### by
+<!--
+TODO: populate stylesheet from standard stylesheet
+TODO: decide between global followed by local stylesheet or local-only stylesheet
+TODO: format poetry
+-->
 
-## Lewis Carroll
+by Lewis Carroll
 
-### Illustrated by Sir John Tenniel
-
-eBooks@Adelaide\
- 2009
-
-This web edition published by [eBooks@Adelaide](http://ebooks.adelaide.edu.au/) .
-
-Rendered into HTML by [Steve Thomas](http://www.adelaide.edu.au/directory/stephen.thomas) .
-
-Last updated Thu Aug 26 10:12:42 2010.
-
-This work is licensed under a Creative Commons Licence\
- (available at [http://creativecommons.org/licenses/by-nc-sa/2.5/au/](http://creativecommons.org/licenses/by-nc-sa/2.5/au/)). You are free: to copy, distribute, display, and perform the work, and to make derivative works under the following conditions: you must attribute the work in the manner specified by the licensor; you may not use this work for commercial purposes; if you alter, transform, or build upon this work, you may distribute the resulting work only under a license identical to this one. For any reuse or distribution, you must make clear to others the license terms of this work. Any of these conditions can be waived if you get permission from the licensor. Your fair use and other rights are in no way affected by the above.
+Illustrated by Sir John Tenniel
 
 eBooks@Adelaide\
- The University of Adelaide Library\
- University of Adelaide\
- South Australia 5005
+2009
+
+Document history:
+
+- Rendered into HTML by [Steve Thomas](http://www.adelaide.edu.au/directory/stephen.thomas).
+- Published in 2009 by [eBooks@Adelaide](http://ebooks.adelaide.edu.au/) at http://ebooks.adelaide.edu.au/c/carroll/lewis/alice/ -- last updated 11 January 2011.
+- Converted to Markdown for creating source-embedded EPUB by Brendan Kidwell in November 2011.
+
+This work is licensed under a Creative Commons Licence (available at [http://creativecommons.org/licenses/by-nc-sa/2.5/au/](http://creativecommons.org/licenses/by-nc-sa/2.5/au/)). You are free: to copy, distribute, display, and perform the work, and to make derivative works under the following conditions: you must attribute the work in the manner specified by the licensor; you may not use this work for commercial purposes; if you alter, transform, or build upon this work, you may distribute the resulting work only under a license identical to this one. For any reuse or distribution, you must make clear to others the license terms of this work. Any of these conditions can be waived if you get permission from the licensor. Your fair use and other rights are in no way affected by the above.
+
+eBooks@Adelaide\
+The University of Adelaide Library\
+University of Adelaide\
+South Australia 5005
 
 ### Table of Contents
 
-1.  [Down the Rabbit-Hole](#calibre_link-11)
-2.  [The Pool of Tears](#calibre_link-5)
-3.  [A Caucus-Race and a Long Tale](#calibre_link-3)
-4.  [The Rabbit Sends in a Little Bill](#calibre_link-4)
-5.  [Advice from a Caterpillar](#calibre_link-12)
-6.  [Pig and Pepper](#calibre_link-9)
-7.  [A Mad Tea-Party](#calibre_link-10)
-8.  [The Queen’s Croquet-Ground](#calibre_link-0)
-9.  [The Mock Turtle’s Story](#calibre_link-2)
-10. [The Lobster Quadrille](#calibre_link-6)
-11. [Who Stole the Tarts?](#calibre_link-7)
-12. [Alice’s Evidence](#calibre_link-8)
+1.  [Down the Rabbit-Hole](#chapter-i-down-the-rabbit-hole)
+2.  [The Pool of Tears](#chapter-ii-the-pool-of-tears)
+3.  [A Caucus-Race and a Long Tale](#chapter-iii-a-caucus-race-and-a-long-tale)
+4.  [The Rabbit Sends in a Little Bill](#chapter-iv-the-rabbit-sends-in-a-little-bill)
+5.  [Advice from a Caterpillar](#chapter-v-advice-from-a-caterpillar)
+6.  [Pig and Pepper](#chapter-vi-pig-and-pepper)
+7.  [A Mad Tea-Party](#chapter-vii-a-mad-tea-party)
+8.  [The Queen’s Croquet-Ground](#chapter-viii-the-queens-croquet-ground)
+9.  [The Mock Turtle’s Story](#chapter-ix-the-mock-turtles-story)
+10. [The Lobster Quadrille](#chapter-x-the-lobster-quadrille)
+11. [Who Stole the Tarts?](#chapter-xi-who-stole-the-tarts)
+12. [Alice’s Evidence](#chapter-xii-alices-evidence)
 
 ### List of Illustrations
 
--   [The King and Queen inspecting the tarts](images/000019.png)
--   [White Rabbit checking watch](images/000022.png)
--   [Alice finding tiny door behind curtain](images/000025.png)
--   [Alice taking "Drink Me" bottle](images/000027.png)
--   [Alice stretched tall](images/000030.png)
--   [Giant Alice watching Rabbit run away](images/000033.png)
--   [Alice in pool of tears](images/000036.png)
--   [Alice with Mouse in pool of tears](images/000039.png)
--   [Dodo presenting thimble](images/000000.png)
--   [Mouse telling story to birds and Alice](images/000003.png)
--   [Alice cramped in Rabbit's house](images/000005.png)
--   [Alice's hand grabbing at Rabbit](images/000008.png)
--   [“There goes Bill!”](images/000010.png)
--   [Dog looking at tiny Alice](images/000038.png)
--   [Alice meets the Caterpillar](images/000012.png)
--   [Father William standing on head](images/000016.png)
--   [Father William somersaults](images/000002.png)
--   [Father William having eaten the goose](images/000015.png)
--   [Father William balancing eel on nose](images/000032.png)
--   [Fish and Frog servants](images/000040.png)
--   [Cook, Duchess, Cheshire Cat, Baby, and Alice](images/000021.png)
--   [Alice and pig baby](images/000028.png)
--   [Alice speaks to Cheshire Cat](images/000023.png)
--   [Cheshire Cat fading to smile](images/000017.png)
--   [Mad Tea Party](images/000007.png)
--   [Hatter engaging in rhetoric](images/000041.png)
--   [Hatter and Hare dunking Dormouse](images/000009.png)
--   [Two, Five, and Seven painting the rosebush](images/000011.png)
--   [“Off with her head!”](images/000013.png)
--   [Alice trying to play croquet with flamingo and hedgehog](images/000014.png)
--   [Executioner argues with King about cutting off Cheshire Cat's head](images/000018.png)
--   [Alice (with flamingo) chats with the Duchess](images/000020.png)
--   [Gryphon asleep](images/000024.png)
--   [Mock Turtle and Gryphon singing to Alice](images/000026.png)
--   [Mock Turtle and Gryphon demonstrating the Lobster Quadrille to Alice](images/000029.png)
--   [Lobster primping before a mirror](images/000031.png)
--   [White Rabbit, dressed as herald, blowing trumpet](images/000034.png)
--   [Mad Hatter arrives hastily in court to testify](images/000037.png)
--   [...and just as hastily leaves](images/000035.png)
--   [Giant Alice upsets the jury (literally)](images/000001.png)
--   [King reflecting in court](images/000004.png)
--   [“You're nothing but a pack of cards!”](images/000042.png)
+-   [The King and Queen inspecting the tarts](#img19)
+-   [White Rabbit checking watch](#img22)
+-   [Alice finding tiny door behind curtain](#img25)
+-   [Alice taking "Drink Me" bottle](#img27)
+-   [Alice stretched tall](#img30)
+-   [Giant Alice watching Rabbit run away](#img33)
+-   [Alice in pool of tears](#img36)
+-   [Alice with Mouse in pool of tears](#img39)
+-   [Dodo presenting thimble](#img00)
+-   [Mouse telling story to birds and Alice](#img03)
+-   [Alice cramped in Rabbit's house](#img05)
+-   [Alice's hand grabbing at Rabbit](#img08)
+-   [“There goes Bill!”](#img10)
+-   [Dog looking at tiny Alice](#img38)
+-   [Alice meets the Caterpillar](#img12)
+-   [Father William standing on head](#img16)
+-   [Father William somersaults](#img02)
+-   [Father William having eaten the goose](#img15)
+-   [Father William balancing eel on nose](#img32)
+-   [Fish and Frog servants](#img40)
+-   [Cook, Duchess, Cheshire Cat, Baby, and Alice](#img21)
+-   [Alice and pig baby](#img28)
+-   [Alice speaks to Cheshire Cat](#img23)
+-   [Cheshire Cat fading to smile](#img17)
+-   [Mad Tea Party](#img07)
+-   [Hatter engaging in rhetoric](#img41)
+-   [Hatter and Hare dunking Dormouse](#img09)
+-   [Two, Five, and Seven painting the rosebush](#img11)
+-   [“Off with her head!”](#img13)
+-   [Alice trying to play croquet with flamingo and hedgehog](#img14)
+-   [Executioner argues with King about cutting off Cheshire Cat's head](#img18)
+-   [Alice (with flamingo) chats with the Duchess](#img20)
+-   [Gryphon asleep](#img24)
+-   [Mock Turtle and Gryphon singing to Alice](#img26)
+-   [Mock Turtle and Gryphon demonstrating the Lobster Quadrille to Alice](#img29)
+-   [Lobster primping before a mirror](#img31)
+-   [White Rabbit, dressed as herald, blowing trumpet](#img34)
+-   [Mad Hatter arrives hastily in court to testify](#img37)
+-   [...and just as hastily leaves](#img35)
+-   [Giant Alice upsets the jury (literally)](#img01)
+-   [King reflecting in court](#img04)
+-   [“You're nothing but a pack of cards!”](#img42)
+
+<a name="img19"></a>
 
 ![King and Queen inspecting tart in courtroom](images/000019.png)
 
-[Table of Contents](#calibre_link-1) [Next](#calibre_link-11)
-Last updated on Tue Jan 11 23:29:27 2011 for [eBooks@Adelaide](http://ebooks.adelaide.edu.au/).
-
-# Alice in Wonderland, by Lewis Carroll
-
-### Chapter I
-
-#### Down the Rabbit-Hole
+## Chapter I\
+Down the Rabbit-Hole
 
 Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, ‘and what is the use of a book,’ thought Alice ‘without pictures or conversation?’
 
 So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.
 
 There was nothing so *very* remarkable in that; nor did Alice think it so *very* much out of the way to hear the Rabbit say to itself, ‘Oh dear! Oh dear! I shall be late!’ (when she thought it over afterwards, it occurred to her that she ought to have wondered at this, but at the time it all seemed quite natural); but when the Rabbit actually *took a watch out of its waistcoat-pocket* , and looked at it, and then hurried on, Alice started to her feet, for it flashed across her mind that she had never before seen a rabbit with either a waistcoat-pocket, or a watch to take out of it, and burning with curiosity, she ran across the field after it, and fortunately was just in time to see it pop down a large rabbit-hole under the hedge.
+
+<a name="img22"></a>
 
 ![White Rabbit checking watch](images/000022.png)
 
@@ -122,11 +123,15 @@ There were doors all round the hall, but they were all locked; and when Alice ha
 
 Suddenly she came upon a little three-legged table, all made of solid glass; there was nothing on it except a tiny golden key, and Alice’s first thought was that it might belong to one of the doors of the hall; but, alas! either the locks were too large, or the key was too small, but at any rate it would not open any of them. However, on the second time round, she came upon a low curtain she had not noticed before, and behind it was a little door about fifteen inches high: she tried the little golden key in the lock, and to her great delight it fitted!
 
+<a name="img25"></a>
+
 ![Alice finding tiny door behind curtain](images/000025.png)
 
 Alice opened the door and found that it led into a small passage, not much larger than a rat-hole: she knelt down and looked along the passage into the loveliest garden you ever saw. How she longed to get out of that dark hall, and wander about among those beds of bright flowers and those cool fountains, but she could not even get her head though the doorway; ‘and even if my head would go through,’ thought poor Alice, ‘it would be of very little use without my shoulders. Oh, how I wish I could shut up like a telescope! I think I could, if I only know how to begin.’ For, you see, so many out-of-the-way things had happened lately, that Alice had begun to think that very few things indeed were really impossible.
 
 There seemed to be no use in waiting by the little door, so she went back to the table, half hoping she might find another key on it, or at any rate a book of rules for shutting people up like telescopes: this time she found a little bottle on it, (‘which certainly was not here before,’ said Alice,) and round the neck of the bottle was a paper label, with the words ‘DRINK ME’ beautifully printed on it in large letters.
+
+<a name="img27"></a>
 
 ![Alice taking “Drink Me” bottle](images/000027.png)
 
@@ -154,22 +159,12 @@ She ate a little bit, and said anxiously to herself, ‘Which way? Which way?’
 
 So she set to work, and very soon finished off the cake.
 
-\* \* \* \* \* \* \*\
- \
- \* \* \* \* \* \*\
- \
- \* \* \* \* \* \* \*
+## Chapter II\
+The Pool of Tears
 
-[Table of Contents](#calibre_link-1) [Next](#calibre_link-5)
-Last updated on Tue Jan 11 23:29:27 2011 for [eBooks@Adelaide](http://ebooks.adelaide.edu.au/).
-
-# Alice in Wonderland, by Lewis Carroll
-
-### Chapter II
+<a name="img30"></a>
 
 ![Alice stretched tall](images/000030.png)
-
-#### The Pool of Tears
 
 ‘Curiouser and curiouser!’ cried Alice (she was so much surprised, that for the moment she quite forgot how to speak good English); ‘now I’m opening out like the largest telescope that ever was! Good-bye, feet!’ (for when she looked down at her feet, they seemed to be almost out of sight, they were getting so far off). ‘Oh, my poor little feet, I wonder who will put on your shoes and stockings for you now, dears? I’m sure *I* shan’t be able! I shall be a great deal too far off to trouble myself about you: you must manage the best way you can; — but I must be kind to them,’ thought Alice, ‘or perhaps they won’t walk the way I want to go! Let me see: I’ll give them a new pair of boots every Christmas.’
 
@@ -189,6 +184,8 @@ Poor Alice! It was as much as she could do, lying down on one side, to look thro
 ‘You ought to be ashamed of yourself,’ said Alice, ‘a great girl like you,’ (she might well say this), ‘to go on crying in this way! Stop this moment, I tell you!’ But she went on all the same, shedding gallons of tears, until there was a large pool all round her, about four inches deep and reaching half down the hall.
 
 After a time she heard a little pattering of feet in the distance, and she hastily dried her eyes to see what was coming. It was the White Rabbit returning, splendidly dressed, with a pair of white kid gloves in one hand and a large fan in the other: he came trotting along in a great hurry, muttering to himself as he came, ‘Oh! the Duchess, the Duchess! Oh! won’t she be savage if I’ve kept her waiting!’ Alice felt so desperate that she was ready to ask help of any one; so, when the Rabbit came near her, she began, in a low, timid voice, ‘If you please, sir —’ The Rabbit started violently, dropped the white kid gloves and the fan, and skurried away into the darkness as hard as he could go.
+
+<a name="img33"></a>
 
 ![Giant Alice watching Rabbit run away](images/000033.png)
 
@@ -220,6 +217,8 @@ As she said this she looked down at her hands, and was surprised to see that she
 
 As she said these words her foot slipped, and in another moment, splash! she was up to her chin in salt water. Her first idea was that she had somehow fallen into the sea, ‘and in that case I can go back by railway,’ she said to herself. (Alice had been to the seaside once in her life, and had come to the general conclusion, that wherever you go to on the English coast you find a number of bathing machines in the sea, some children digging in the sand with wooden spades, then a row of lodging houses, and behind them a railway station.) However, she soon made out that she was in the pool of tears which she had wept when she was nine feet high.
 
+<a name="img36"></a>
+
 ![Alice in pool of tears](images/000036.png)
 
 ‘I wish I hadn’t cried so much!’ said Alice, as she swam about, trying to find her way out. ‘I shall be punished for it now, I suppose, by being drowned in my own tears! That *will* be a queer thing, to be sure! However, everything is queer to-day.’
@@ -231,6 +230,8 @@ Just then she heard something splashing about in the pool a little way off, and 
 ‘Perhaps it doesn’t understand English,’ thought Alice; ‘I daresay it’s a French mouse, come over with William the Conqueror.’ (For, with all her knowledge of history, Alice had no very clear notion how long ago anything had happened.) So she began again: ‘Ou est ma chatte?’ which was the first sentence in her French lesson-book. The Mouse gave a sudden leap out of the water, and seemed to quiver all over with fright. ‘Oh, I beg your pardon!’ cried Alice hastily, afraid that she had hurt the poor animal’s feelings. ‘I quite forgot you didn’t like cats.’
 
 ‘Not like cats!’ cried the Mouse, in a shrill, passionate voice. ‘Would *you* like cats if you were me?’
+
+<a name="img39"></a>
 
 ![Alice with Mouse in pool of tears](images/000039.png)
 
@@ -244,14 +245,8 @@ So she called softly after it, ‘Mouse dear! Do come back again, and we won’t
 
 It was high time to go, for the pool was getting quite crowded with the birds and animals that had fallen into it: there were a Duck and a Dodo, a Lory and an Eaglet, and several other curious creatures. Alice led the way, and the whole party swam to the shore.
 
-[Table of Contents](#calibre_link-1) [Next](#calibre_link-3)
-Last updated on Tue Jan 11 23:29:27 2011 for [eBooks@Adelaide](http://ebooks.adelaide.edu.au/).
-
-# Alice in Wonderland, by Lewis Carroll
-
-### Chapter III
-
-#### A Caucus-Race and a Long Tale
+## Chapter III\
+A Caucus-Race and a Long Tale
 
 They were indeed a queer-looking party that assembled on the bank — the birds with draggled feathers, the animals with their fur clinging close to them, and all dripping wet, cross, and uncomfortable.
 
@@ -308,6 +303,8 @@ Alice had no idea what to do, and in despair she put her hand in her pocket, and
 ‘Hand it over here,’ said the Dodo.
 
 Then they all crowded round her once more, while the Dodo solemnly presented the thimble, saying ‘We beg your acceptance of this elegant thimble’; and, when it had finished this short speech, they all cheered.
+
+<a name="img00"></a>
 
 ![Dodo presenting thimble](images/000000.png)
 
@@ -409,6 +406,8 @@ to
 
 death.”’
 
+<a name="img03"></a>
+
 ![Mouse telling story to birds and Alice](images/000003.png)
 
 ‘You are not attending!’ said the Mouse to Alice severely. ‘What are you thinking of?’
@@ -439,14 +438,8 @@ This speech caused a remarkable sensation among the party. Some of the birds hur
 
 ‘I wish I hadn’t mentioned Dinah!’ she said to herself in a melancholy tone. ‘Nobody seems to like her, down here, and I’m sure she’s the best cat in the world! Oh, my dear Dinah! I wonder if I shall ever see you any more!’ And here poor Alice began to cry again, for she felt very lonely and low-spirited. In a little while, however, she again heard a little pattering of footsteps in the distance, and she looked up eagerly, half hoping that the Mouse had changed his mind, and was coming back to finish his story.
 
-[Table of Contents](#calibre_link-1) [Next](#calibre_link-4)
-Last updated on Tue Jan 11 23:29:27 2011 for [eBooks@Adelaide](http://ebooks.adelaide.edu.au/).
-
-# Alice in Wonderland, by Lewis Carroll
-
-### Chapter IV
-
-#### The Rabbit Sends in a Little Bill
+## Chapter IV\
+The Rabbit Sends in a Little Bill
 
 It was the White Rabbit, trotting slowly back again, and looking anxiously about as it went, as if it had lost something; and she heard it muttering to itself ‘The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where *can* I have dropped them, I wonder?’ Alice guessed in a moment that it was looking for the fan and the pair of white kid gloves, and she very good-naturedly began hunting about for them, but they were nowhere to be seen — everything seemed to have changed since her swim in the pool, and the great hall, with the glass table and the little door, had vanished completely.
 
@@ -459,6 +452,8 @@ Very soon the Rabbit noticed Alice, as she went hunting about, and called out to
 By this time she had found her way into a tidy little room with a table in the window, and on it (as she had hoped) a fan and two or three pairs of tiny white kid gloves: she took up the fan and a pair of the gloves, and was just going to leave the room, when her eye fell upon a little bottle that stood near the looking- glass. There was no label this time with the words ‘DRINK ME,’ but nevertheless she uncorked it and put it to her lips. ‘I know *something* interesting is sure to happen,’ she said to herself, ‘whenever I eat or drink anything; so I’ll just see what this bottle does. I do hope it’ll make me grow large again, for really I’m quite tired of being such a tiny little thing!’
 
 It did so indeed, and much sooner than she had expected: before she had drunk half the bottle, she found her head pressing against the ceiling, and had to stoop to save her neck from being broken. She hastily put down the bottle, saying to herself ‘That’s quite enough — I hope I shan’t grow any more — As it is, I can’t get out at the door — I do wish I hadn’t drunk quite so much!’
+
+<a name="img05"></a>
 
 ![Alice cramped in Rabbit's house](images/000005.png)
 
@@ -479,6 +474,8 @@ And so she went on, taking first one side and then the other, and making quite a
 Presently the Rabbit came up to the door, and tried to open it; but, as the door opened inwards, and Alice’s elbow was pressed hard against it, that attempt proved a failure. Alice heard it say to itself ‘Then I’ll go round and get in at the window.’
 
 ‘*That* you won’t’ thought Alice, and, after waiting till she fancied she heard the Rabbit just under the window, she suddenly spread out her hand, and made a snatch in the air. She did not get hold of anything, but she heard a little shriek and a fall, and a crash of broken glass, from which she concluded that it was just possible it had fallen into a cucumber-frame, or something of the sort.
+
+<a name="img08"></a>
 
 ![Alice's hand grabbing at Rabbit](images/000008.png)
 
@@ -501,6 +498,8 @@ There was a long silence after this, and Alice could only hear whispers now and 
 She waited for some time without hearing anything more: at last came a rumbling of little cartwheels, and the sound of a good many voices all talking together: she made out the words: ‘Where’s the other ladder?— Why, I hadn’t to bring but one; Bill’s got the other — Bill! fetch it here, lad!— Here, put ’em up at this corner — No, tie ’em together first — they don’t reach half high enough yet — Oh! they’ll do well enough; don’t be particular — Here, Bill! catch hold of this rope — Will the roof bear?— Mind that loose slate — Oh, it’s coming down! Heads below!’ (a loud crash)—‘Now, who did that?— It was Bill, I fancy — Who’s to go down the chimney?— Nay, I shan’t! *you* do it!— That I won’t, then!— Bill’s to go down — Here, Bill! the master says you’re to go down the chimney!’
 
 ‘Oh! So Bill’s got to come down the chimney, has he?’ said Alice to herself. ‘Shy, they seem to put everything upon Bill! I wouldn’t be in Bill’s place for a good deal: this fireplace is narrow, to be sure; but I *think* I can kick a little!’
+
+<a name="img10"></a>
 
 ![“There goes Bill!”](images/000010.png)
 
@@ -526,6 +525,8 @@ So she swallowed one of the cakes, and was delighted to find that she began shri
 
 It sounded an excellent plan, no doubt, and very neatly and simply arranged; the only difficulty was, that she had not the smallest idea how to set about it; and while she was peering about anxiously among the trees, a little sharp bark just over her head made her look up in a great hurry.
 
+<a name="img38"></a>
+
 ![Dog looking at tiny Alice](images/000038.png)
 
 An enormous puppy was looking down at her with large round eyes, and feebly stretching out one paw, trying to touch her. ‘Poor little thing!’ said Alice, in a coaxing tone, and she tried hard to whistle to it; but she was terribly frightened all the time at the thought that it might be hungry, in which case it would be very likely to eat her up in spite of all her coaxing.
@@ -540,18 +541,14 @@ The great question certainly was, what? Alice looked all round her at the flower
 
 She stretched herself up on tiptoe, and peeped over the edge of the mushroom, and her eyes immediately met those of a large caterpillar, that was sitting on the top with its arms folded, quietly smoking a long hookah, and taking not the smallest notice of her or of anything else.
 
-[Table of Contents](#calibre_link-1) [Next](#calibre_link-12)
-Last updated on Tue Jan 11 23:29:27 2011 for [eBooks@Adelaide](http://ebooks.adelaide.edu.au/).
-
-# Alice in Wonderland, by Lewis Carroll
-
-### Chapter V
-
-#### Advice from a Caterpillar
+## Chapter V\
+Advice from a Caterpillar
 
 The Caterpillar and Alice looked at each other for some time in silence: at last the Caterpillar took the hookah out of its mouth, and addressed her in a languid, sleepy voice.
 
 ‘Who are *you* ?’ said the Caterpillar.
+
+<a name="img12"></a>
 
 ![Alice meets the Caterpillar](images/000012.png)
 
@@ -611,6 +608,8 @@ And yet you incessantly stand on your head —
 
 Do you think, at your age, it is right?’
 
+<a name="img16"></a>
+
 ![Father William standing on head](images/000016.png)
 
 ‘In my youth,’ Father William replied to his son,
@@ -628,6 +627,8 @@ And have grown most uncommonly fat;
 Yet you turned a back-somersault in at the door —
 
 Pray, what is the reason of that?’
+
+<a name="img02"></a>
 
 ![Father William somersaulting](images/000002.png)
 
@@ -647,6 +648,8 @@ Yet you finished the goose, with the bones and the beak —
 
 Pray how did you manage to do it?’
 
+<a name="img15"></a>
+
 ![Father William having eaten the goose](images/000015.png)
 
 ‘In my youth,’ said his father, ‘I took to the law,
@@ -664,6 +667,8 @@ That your eye was as steady as ever;
 Yet you balanced an eel on the end of your nose —
 
 What made you so awfully clever?’
+
+<a name="img32"></a>
 
 ![Father William balancing eel on nose](images/000032.png)
 
@@ -763,18 +768,14 @@ This was such a new idea to Alice, that she was quite silent for a minute or two
 
 It was so long since she had been anything near the right size, that it felt quite strange at first; but she got used to it in a few minutes, and began talking to herself, as usual. ‘Come, there’s half my plan done now! How puzzling all these changes are! I’m never sure what I’m going to be, from one minute to another! However, I’ve got back to my right size: the next thing is, to get into that beautiful garden — how *is* that to be done, I wonder?’ As she said this, she came suddenly upon an open place, with a little house in it about four feet high. ‘Whoever lives there,’ thought Alice, ‘it’ll never do to come upon them *this* size: why, I should frighten them out of their wits!’ So she began nibbling at the righthand bit again, and did not venture to go near the house till she had brought herself down to nine inches high.
 
-[Table of Contents](#calibre_link-1) [Next](#calibre_link-9)
-Last updated on Tue Jan 11 23:29:27 2011 for [eBooks@Adelaide](http://ebooks.adelaide.edu.au/).
-
-# Alice in Wonderland, by Lewis Carroll
-
-### Chapter VI
-
-#### Pig and Pepper
+## Chapter VI\
+Pig and Pepper
 
 For a minute or two she stood looking at the house, and wondering what to do next, when suddenly a footman in livery came running out of the wood —(she considered him to be a footman because he was in livery: otherwise, judging by his face only, she would have called him a fish)— and rapped loudly at the door with his knuckles. It was opened by another footman in livery, with a round face, and large eyes like a frog; and both footmen, Alice noticed, had powdered hair that curled all over their heads. She felt very curious to know what it was all about, and crept a little way out of the wood to listen.
 
 The Fish-Footman began by producing from under his arm a great letter, nearly as large as himself, and this he handed over to the other, saying, in a solemn tone, ‘For the Duchess. An invitation from the Queen to play croquet.’ The Frog-Footman repeated, in the same solemn tone, only changing the order of the words a little, ‘From the Queen. An invitation for the Duchess to play croquet.’
+
+<a name="img40"></a>
 
 ![Fish and Frog servants](images/000040.png)
 
@@ -809,6 +810,8 @@ The Footman seemed to think this a good opportunity for repeating his remark, wi
 ‘Anything you like,’ said the Footman, and began whistling.
 
 ‘Oh, there’s no use in talking to him,’ said Alice desperately: ‘he’s perfectly idiotic!’ And she opened the door and went in.
+
+<a name="img21"></a>
 
 ![Cook, Duchess, Cheshire Cat, Baby, and Alice](images/000021.png)
 
@@ -886,9 +889,13 @@ No, there were no tears. ‘If you’re going to turn into a pig, my dear,’ sa
 
 Alice was just beginning to think to herself, ‘Now, what am I to do with this creature when I get it home?’ when it grunted again, so violently, that she looked down into its face in some alarm. This time there could be *no* mistake about it: it was neither more nor less than a pig, and she felt that it would be quite absurd for her to carry it further.
 
+<a name="img28"></a>
+
 ![Alice and pig baby](images/000028.png)
 
 So she set the little creature down, and felt quite relieved to see it trot away quietly into the wood. ‘If it had grown up,’ she said to herself, ‘it would have made a dreadfully ugly child: but it makes rather a handsome pig, I think.’ And she began thinking over other children she knew, who might do very well as pigs, and was just saying to herself, ‘if one only knew the right way to change them —’ when she was a little startled by seeing the Cheshire Cat sitting on a bough of a tree a few yards off.
+
+<a name="img23"></a>
 
 ![Alice speaks to Cheshire Cat](images/000023.png)
 
@@ -950,20 +957,16 @@ Alice waited a little, half expecting to see it again, but it did not appear, an
 
 ‘All right,’ said the Cat; and this time it vanished quite slowly, beginning with the end of the tail, and ending with the grin, which remained some time after the rest of it had gone.
 
+<a name="img17"></a>
+
 ![Cheshire Cat fading to smile](images/000017.png)
 
 ‘Well! I’ve often seen a cat without a grin,’ thought Alice; ‘but a grin without a cat! It’s the most curious thing I ever saw in my life!’
 
 She had not gone much farther before she came in sight of the house of the March Hare: she thought it must be the right house, because the chimneys were shaped like ears and the roof was thatched with fur. It was so large a house, that she did not like to go nearer till she had nibbled some more of the lefthand bit of mushroom, and raised herself to about two feet high: even then she walked up towards it rather timidly, saying to herself ‘Suppose it should be raving mad after all! I almost wish I’d gone to see the Hatter instead!’
 
-[Table of Contents](#calibre_link-1) [Next](#calibre_link-10)
-Last updated on Tue Jan 11 23:29:27 2011 for [eBooks@Adelaide](http://ebooks.adelaide.edu.au/).
-
-# Alice in Wonderland, by Lewis Carroll
-
-### Chapter VII
-
-#### A Mad Tea-Party
+## Chapter VII\
+A Mad Tea-Party
 
 There was a table set out under a tree in front of the house, and the March Hare and the Hatter were having tea at it: a Dormouse was sitting between them, fast asleep, and the other two were using it as a cushion, resting their elbows on it, and talking over its head. ‘Very uncomfortable for the Dormouse,’ thought Alice; ‘only, as it’s asleep, I suppose it doesn’t mind.’
 
@@ -1004,6 +1007,8 @@ The Hatter opened his eyes very wide on hearing this; but all he *said* was, ‘
 ‘You might just as well say,’ added the Dormouse, who seemed to be talking in his sleep, ‘that “I breathe when I sleep” is the same thing as “I sleep when I breathe”!’
 
 ‘It *is* the same thing with you,’ said the Hatter, and here the conversation dropped, and the party sat silent for a minute, while Alice thought over all she could remember about ravens and writing-desks, which wasn’t much.
+
+<a name="img07"></a>
 
 ![Mad Tea Party](images/000007.png)
 
@@ -1086,6 +1091,8 @@ Here the Dormouse shook itself, and began singing in its sleep ‘Twinkle, twink
 ‘How dreadfully savage!’ exclaimed Alice.
 
 ‘And ever since that,’ the Hatter went on in a mournful tone, ‘he won’t do a thing I ask! It’s always six o’clock now.’
+
+<a name="img41"></a>
 
 ![Hatter engaging in rhetoric](images/000041.png)
 
@@ -1179,6 +1186,8 @@ The Dormouse had closed its eyes by this time, and was going off into a doze; bu
 
 This piece of rudeness was more than Alice could bear: she got up in great disgust, and walked off; the Dormouse fell asleep instantly, and neither of the others took the least notice of her going, though she looked back once or twice, half hoping that they would call after her: the last time she saw them, they were trying to put the Dormouse into the teapot.
 
+<a name="img09"></a>
+
 ![Hatter and Hare dunking Dormouse](images/000009.png)
 
 ‘At any rate I’ll never go *there* again!’ said Alice as she picked her way through the wood. ‘It’s the stupidest tea-party I ever was at in all my life!’
@@ -1187,14 +1196,8 @@ Just as she said this, she noticed that one of the trees had a door leading righ
 
 Once more she found herself in the long hall, and close to the little glass table. ‘Now, I’ll manage better this time,’ she said to herself, and began by taking the little golden key, and unlocking the door that led into the garden. Then she went to work nibbling at the mushroom (she had kept a piece of it in her pocket) till she was about a foot high: then she walked down the little passage: and *then* — she found herself at last in the beautiful garden, among the bright flower-beds and the cool fountains.
 
-[Table of Contents](#calibre_link-1) [Next](#calibre_link-0)
-Last updated on Tue Jan 11 23:29:27 2011 for [eBooks@Adelaide](http://ebooks.adelaide.edu.au/).
-
-# Alice in Wonderland, by Lewis Carroll
-
-### Chapter VIII
-
-#### The Queen’s Croquet-Ground
+## Chapter VIII\
+The Queen’s Croquet-Ground
 
 A large rose-tree stood near the entrance of the garden: the roses growing on it were white, but there were three gardeners at it, busily painting them red. Alice thought this a very curious thing, and she went nearer to watch them, and just as she came up to them she heard one of them say, ‘Look out now, Five! Don’t go splashing paint over me like that!’
 
@@ -1211,6 +1214,8 @@ On which Seven looked up and said, ‘That’s right, Five! Always lay the blame
 ‘Yes, it *is* his business!’ said Five, ‘and I’ll tell him — it was for bringing the cook tulip-roots instead of onions.’
 
 Seven flung down his brush, and had just begun ‘Well, of all the unjust things —’ when his eye chanced to fall upon Alice, as she stood watching them, and he checked himself suddenly: the others looked round also, and all of them bowed low.
+
+<a name="img11"></a>
 
 ![Two, Five, and Seven painting the rosebush](images/000011.png)
 
@@ -1233,6 +1238,8 @@ When the procession came opposite to Alice, they all stopped and looked at her, 
 ‘How should I know?’ said Alice, surprised at her own courage. ‘It’s no business of *mine* .’
 
 The Queen turned crimson with fury, and, after glaring at her for a moment like a wild beast, screamed ‘Off with her head! Off —’
+
+<a name="img13"></a>
 
 ![“Off with her head!”](images/000013.png)
 
@@ -1281,6 +1288,8 @@ The soldiers were silent, and looked at Alice, as the question was evidently mea
 ‘She boxed the Queen’s ears —’ the Rabbit began. Alice gave a little scream of laughter. ‘Oh, hush!’ the Rabbit whispered in a frightened tone. ‘The Queen will hear you! You see, she came rather late, and the Queen said —’
 
 ‘Get to your places!’ shouted the Queen in a voice of thunder, and people began running about in all directions, tumbling up against each other; however, they got settled down in a minute or two, and the game began. Alice thought she had never seen such a curious croquet-ground in her life; it was all ridges and furrows; the balls were live hedgehogs, the mallets live flamingoes, and the soldiers had to double themselves up and to stand on their hands and feet, to make the arches.
+
+<a name="img14"></a>
 
 ![Alice trying to play croquet with flamingo and hedgehog](images/000014.png)
 
@@ -1332,6 +1341,8 @@ When she got back to the Cheshire Cat, she was surprised to find quite a large c
 
 The moment Alice appeared, she was appealed to by all three to settle the question, and they repeated their arguments to her, though, as they all spoke at once, she found it very hard indeed to make out exactly what they said.
 
+<a name="img18"></a>
+
 ![Executioner argues with King about cutting off Cheshire Cat's head](images/000018.png)
 
 The executioner’s argument was, that you couldn’t cut off a head unless there was a body to cut it off from: that he had never had to do such a thing before, and he wasn’t going to begin at *his* time of life.
@@ -1346,14 +1357,8 @@ Alice could think of nothing else to say but ‘It belongs to the Duchess: you�
 
 The Cat’s head began fading away the moment he was gone, and, by the time he had come back with the Duchess, it had entirely disappeared; so the King and the executioner ran wildly up and down looking for it, while the rest of the party went back to the game.
 
-[Table of Contents](#calibre_link-1) [Next](#calibre_link-2)
-Last updated on Tue Jan 11 23:29:27 2011 for [eBooks@Adelaide](http://ebooks.adelaide.edu.au/).
-
-# Alice in Wonderland, by Lewis Carroll
-
-### Chapter IX
-
-#### The Mock Turtle’s Story
+## Chapter IX\
+The Mock Turtle’s Story
 
 ‘You can’t think how glad I am to see you again, you dear old thing!’ said the Duchess, as she tucked her arm affectionately into Alice’s, and they walked off together.
 
@@ -1388,6 +1393,8 @@ Alice did not much like keeping so close to her: first, because the Duchess was 
 ‘Only mustard isn’t a bird,’ Alice remarked.
 
 ‘Right, as usual,’ said the Duchess: ‘what a clear way you have of putting things!’
+
+<a name="img20"></a>
 
 ![Alice (with flamingo) chats with the Duchess](images/000020.png)
 
@@ -1441,6 +1448,8 @@ Then the Queen left off, quite out of breath, and said to Alice, ‘Have you see
 
 As they walked off together, Alice heard the King say in a low voice, to the company generally, ‘You are all pardoned.’ ‘Come, *that’s* a good thing!’ she said to herself, for she had felt quite unhappy at the number of executions the Queen had ordered.
 
+<a name="img24"></a>
+
 ![Gryphon asleep](images/000024.png)
 
 They very soon came upon a Gryphon, lying fast asleep in the sun. (If you don’t know what a Gryphon is, look at the picture.) ‘Up, lazy thing!’ said the Queen, ‘and take this young lady to see the Mock Turtle, and to hear his history. I must go back and see after some executions I have ordered’; and she walked off, leaving Alice alone with the Gryphon. Alice did not quite like the look of the creature, but on the whole she thought it would be quite as safe to stay with it as to go after that savage Queen: so she waited.
@@ -1464,6 +1473,8 @@ So they went up to the Mock Turtle, who looked at them with large eyes full of t
 So they sat down, and nobody spoke for some minutes. Alice thought to herself, ‘I don’t see how he can *even* finish, if he doesn’t begin.’ But she waited patiently.
 
 ‘Once,’ said the Mock Turtle at last, with a deep sigh, ‘I was a real Turtle.’
+
+<a name="img26"></a>
 
 ![Mock Turtle and Gryphon singing to Alice](images/000026.png)
 
@@ -1545,20 +1556,16 @@ This was quite a new idea to Alice, and she thought it over a little before she 
 
 ‘That’s enough about lessons,’ the Gryphon interrupted in a very decided tone: ‘tell her something about the games now.’
 
-[Table of Contents](#calibre_link-1) [Next](#calibre_link-6)
-Last updated on Tue Jan 11 23:29:27 2011 for [eBooks@Adelaide](http://ebooks.adelaide.edu.au/).
-
-# Alice in Wonderland, by Lewis Carroll
-
-### Chapter X
-
-#### The Lobster Quadrille
+## Chapter X\
+The Lobster Quadrille
 
 The Mock Turtle sighed deeply, and drew the back of one flapper across his eyes. He looked at Alice, and tried to speak, but for a minute or two sobs choked his voice. ‘Same as if he had a bone in his throat,’ said the Gryphon: and it set to work shaking him and punching him in the back. At last the Mock Turtle recovered his voice, and, with tears running down his cheeks, he went on again:—
 
 ‘You may not have lived much under the sea —’ (‘I haven’t,’ said Alice)— ‘and perhaps you were never even introduced to a lobster —’ (Alice began to say ‘I once tasted —’ but checked herself hastily, and said ‘No, never’) ‘— so you can have no idea what a delightful thing a Lobster Quadrille is!’
 
 ‘No, indeed,’ said Alice. ‘What sort of a dance is it?’
+
+<a name="img29"></a>
 
 ![Mock Turtle and Gryphon demonstrating the Lobster Quadrille to Alice](images/000029.png)
 
@@ -1700,6 +1707,8 @@ So Alice began telling them her adventures from the time when she first saw the 
 
 ‘How the creatures order one about, and make one repeat lessons!’ thought Alice; ‘I might as well be at school at once.’ However, she got up, and began to repeat it, but her head was so full of the Lobster Quadrille, that she hardly knew what she was saying, and the words came very queer indeed:—
 
+<a name="img31"></a>
+
 ![Lobster primping before a mirror](images/000031.png)
 
 ‘’Tis the voice of the Lobster; I heard him declare,
@@ -1808,14 +1817,8 @@ Beautiful, beauti — FUL SOUP!’
 
 Beautiful, beautiful Soup!’
 
-[Table of Contents](#calibre_link-1) [Next](#calibre_link-7)
-Last updated on Tue Jan 11 23:29:27 2011 for [eBooks@Adelaide](http://ebooks.adelaide.edu.au/).
-
-# Alice in Wonderland, by Lewis Carroll
-
-### Chapter XI
-
-#### Who Stole the Tarts?
+## Chapter XI\
+Who Stole the Tarts?
 
 The King and Queen of Hearts were seated on their throne when they arrived, with a great crowd assembled about them — all sorts of little birds and beasts, as well as the whole pack of cards: the Knave was standing before them, in chains, with a soldier on each side to guard him; and near the King was the White Rabbit, with a trumpet in one hand, and a scroll of parchment in the other. In the very middle of the court was a table, with a large dish of tarts upon it: they looked so good, that it made Alice quite hungry to look at them —‘I wish they’d get the trial done,’ she thought, ‘and hand round the refreshments!’ But there seemed to be no chance of this, so she began looking at everything about her, to pass away the time.
 
@@ -1830,6 +1833,8 @@ The twelve jurors were all writing very busily on slates. ‘What are they doing
 ‘They’re putting down their names,’ the Gryphon whispered in reply, ‘for fear they should forget them before the end of the trial.’
 
 ‘Stupid things!’ Alice began in a loud, indignant voice, but she stopped hastily, for the White Rabbit cried out, ‘Silence in the court!’ and the King put on his spectacles and looked anxiously round, to make out who was talking.
+
+<a name="img34"></a>
 
 ![White Rabbit, dressed as herald, blowing trumpet](images/000034.png)
 
@@ -1911,6 +1916,8 @@ All this time the Queen had never left off staring at the Hatter, and, just as t
 
 ‘You did!’ said the Hatter.
 
+<a name="img37"></a>
+
 ![Mad Hatter arrives hastily in court to testify](images/000037.png)
 
 ‘I deny it!’ said the March Hare.
@@ -1949,6 +1956,8 @@ Here the other guinea-pig cheered, and was suppressed.
 
 ‘You may go,’ said the King, and the Hatter hurriedly left the court, without even waiting to put his shoes on.
 
+<a name="img35"></a>
+
 ![...and just as hastily leaves](images/000035.png)
 
 ‘— and just take his head off outside,’ the Queen added to one of the officers: but the Hatter was out of sight before the officer could get to the door.
@@ -1977,16 +1986,12 @@ For some minutes the whole court was in confusion, getting the Dormouse turned o
 
 Alice watched the White Rabbit as he fumbled over the list, feeling very curious to see what the next witness would be like, ‘— for they haven’t got much evidence *yet* ,’ she said to herself. Imagine her surprise, when the White Rabbit read out, at the top of his shrill little voice, the name ‘Alice!’
 
-[Table of Contents](#calibre_link-1) [Next](#calibre_link-8)
-Last updated on Tue Jan 11 23:29:27 2011 for [eBooks@Adelaide](http://ebooks.adelaide.edu.au/).
-
-# Alice in Wonderland, by Lewis Carroll
-
-### Chapter XII
-
-#### Alice’s Evidence
+## Chapter XII\
+Alice’s Evidence
 
 ‘Here!’ cried Alice, quite forgetting in the flurry of the moment how large she had grown in the last few minutes, and she jumped up in such a hurry that she tipped over the jury-box with the edge of her skirt, upsetting all the jurymen on to the heads of the crowd below, and there they lay sprawling about, reminding her very much of a globe of goldfish she had accidentally upset the week before.
+
+<a name="img01"></a>
 
 ![Giant Alice upsets the jury (literally)](images/000001.png)
 
@@ -2116,6 +2121,8 @@ Between yourself and me.’
 
 ‘That’s the most important piece of evidence we’ve heard yet,’ said the King, rubbing his hands; ‘so now let the jury —’
 
+<a name="img04"></a>
+
 ![King reflecting in court](images/000004.png)
 
 ‘If any one of them can explain it,’ said Alice, (she had grown so large in the last few minutes that she wasn’t a bit afraid of interrupting him,) ‘I’ll give him sixpence. *I* don’t believe there’s an atom of meaning in it.’
@@ -2150,6 +2157,8 @@ The Knave shook his head sadly. ‘Do I look like it?’ he said. (Which he cert
 
 ‘Who cares for you?’ said Alice, (she had grown to her full size by this time.) ‘You’re nothing but a pack of cards!’
 
+<a name="img42"></a>
+
 ![“You're nothing but a pack of cards!”](images/000042.png)
 
 At this the whole pack rose up into the air, and came flying down upon her: she gave a little scream, half of fright and half of anger, and tried to beat them off, and found herself lying on the bank, with her head in the lap of her sister, who was gently brushing away some dead leaves that had fluttered down from the trees upon her face.
@@ -2170,12 +2179,3 @@ Lastly, she pictured to herself how this same little sister of hers would, in th
 
 THE END
 
-This web edition published by:
-
-eBooks@Adelaide\
- The University of Adelaide Library\
- University of Adelaide\
- South Australia 5005
-
-[Table of Contents](#calibre_link-1)
-Last updated on Tue Jan 11 23:29:27 2011 for [eBooks@Adelaide](http://ebooks.adelaide.edu.au/).
