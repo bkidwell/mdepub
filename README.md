@@ -8,3 +8,13 @@ product, you merely need to extract the source, make edits, and
 recompile.
 
 **This program is a work in progress. It's not fully functional yet!**
+
+## Requirements
+
+* argparse -- Python command line argument parser
+* Beautiful Soup -- HTML/XML stream parsing and manipulation for Python
+* Calibre (Calibre's `ebook-convert` command is used to manipulate and
+  build EPUB package files.)
+* pandoc -- all purpose converter to and from Markdown syntax
+* Python 2.7
+* YAML for Python -- minimal config / serialization syntax
