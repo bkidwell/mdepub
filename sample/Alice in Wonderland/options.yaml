@@ -5,7 +5,7 @@ authors: "Lewis Carroll"
 author sort: "Carroll, Lewis"
 publication date: "26 Nov 1865" # must be a string D MMM YYYY
 tags: [children, fiction, fantasy]
-guid: 8220b2f8-0f38-11e1-962f-889ffa5498bb
+uuid: 8220b2f8-0f38-11e1-962f-889ffa5498bb
 
 # Uncomment this to customize the base filename ($filename.md, $filename.html, etc.)
 # filename: "Alices Adventures in Wonderland"
