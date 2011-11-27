@@ -23,3 +23,5 @@ def run():
     args.append("%s.md" % options['filename'])
 
     shell.save_output(args, "%s.html" % options['filename'])
+
+# TODO: check for broken internal links
