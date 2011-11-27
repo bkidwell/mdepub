@@ -1,10 +1,10 @@
 # Alice’s Adventures in Wonderland
 
 <!--
-TODO: populate stylesheet from standard stylesheet
 TODO: decide between global followed by local stylesheet or local-only stylesheet
-TODO: format poetry
 -->
+
+<div class="center">
 
 by Lewis Carroll
 
@@ -12,6 +12,12 @@ Illustrated by Sir John Tenniel
 
 eBooks@Adelaide\
 2009
+
+</div>
+
+<div class="break spaced">
+
+*mdepub explanation goes here*
 
 Document history:
 
@@ -26,7 +32,11 @@ The University of Adelaide Library\
 University of Adelaide\
 South Australia 5005
 
-### Table of Contents
+</div>
+
+<div class="break spaced">
+
+**Table of Contents**
 
 1.  [Down the Rabbit-Hole](#chapter-i-down-the-rabbit-hole)
 2.  [The Pool of Tears](#chapter-ii-the-pool-of-tears)
@@ -41,7 +51,7 @@ South Australia 5005
 11. [Who Stole the Tarts?](#chapter-xi-who-stole-the-tarts)
 12. [Alice’s Evidence](#chapter-xii-alices-evidence)
 
-### List of Illustrations
+**List of Illustrations**
 
 -   [The King and Queen inspecting the tarts](#img19)
 -   [White Rabbit checking watch](#img22)
@@ -86,11 +96,17 @@ South Australia 5005
 -   [King reflecting in court](#img04)
 -   [“You're nothing but a pack of cards!”](#img42)
 
+</div>
+
+<div class="break">
+
 <a name="img19"></a>
 
 ![King and Queen inspecting tart in courtroom](images/000019.png)
 
-## Chapter I\
+</div>
+
+## Chapter I \
 Down the Rabbit-Hole
 
 Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, ‘and what is the use of a book,’ thought Alice ‘without pictures or conversation?’
@@ -139,11 +155,13 @@ It was all very well to say ‘Drink me,’ but the wise little Alice was not go
 
 However, this bottle was *not* marked ‘poison,’ so Alice ventured to taste it, and finding it very nice, (it had, in fact, a sort of mixed flavour of cherry-tart, custard, pine-apple, roast turkey, toffee, and hot buttered toast,) she very soon finished it off.
 
-\* \* \* \* \* \* \*\
- \
- \* \* \* \* \* \*\
- \
- \* \* \* \* \* \* \*
+<p class="center">
+`* * * * * * *`\
+\
+` * * * * * * `\
+\
+`* * * * * * *`\
+</p>
 
 ‘What a curious feeling!’ said Alice; ‘I must be shutting up like a telescope.’
 
@@ -159,7 +177,15 @@ She ate a little bit, and said anxiously to herself, ‘Which way? Which way?’
 
 So she set to work, and very soon finished off the cake.
 
-## Chapter II\
+<p class="center">
+`* * * * * * *`\
+\
+` * * * * * * `\
+\
+`* * * * * * *`\
+</p>
+
+## Chapter II \
 The Pool of Tears
 
 <a name="img30"></a>
@@ -170,10 +196,12 @@ The Pool of Tears
 
 And she went on planning to herself how she would manage it. ‘They must go by the carrier,’ she thought; ‘and how funny it’ll seem, sending presents to one’s own feet! And how odd the directions will look!
 
-*Alice’s Right Foot, Esq.\
- Hearthrug,\
- Near the fender,\
- (with Alice’s love).*
+<div class="verse i">
+<p class="in1">Alice’s Right Foot, Esq.</p>
+<p class="in0">Hearthrug,</p>
+<p class="in1">Near the fender,</p>
+<p class="in2">(with Alice’s love).</p>
+</div>
 
 Oh dear, what nonsense I’m talking!’
 
@@ -193,21 +221,19 @@ Alice took up the fan and gloves, and, as the hall was very hot, she kept fannin
 
 ‘I’m sure I’m not Ada,’ she said, ‘for her hair goes in such long ringlets, and mine doesn’t go in ringlets at all; and I’m sure I can’t be Mabel, for I know all sorts of things, and she, oh! she knows such a very little! Besides, *she’s* she, and I’m I, and — oh dear, how puzzling it all is! I’ll try if I know all the things I used to know. Let me see: four times five is twelve, and four times six is thirteen, and four times seven is — oh dear! I shall never get to twenty at that rate! However, the Multiplication Table doesn’t signify: let’s try Geography. London is the capital of Paris, and Paris is the capital of Rome, and Rome — no, *that’s* all wrong, I’m certain! I must have been changed for Mabel! I’ll try and say “How doth the little —”’ and she crossed her hands on her lap as if she were saying lessons, and began to repeat it, but her voice sounded hoarse and strange, and the words did not come the same as they used to do:—
 
-‘How doth the little crocodile
+<div class="verse">
+<p class="in0">‘How doth the little crocodile</p>
+<p class="in1">Improve his shining tail,</p>
+<p class="in0">And pour the waters of the Nile</p>
+<p class="in1">On every golden scale!</p>
+</div>
 
-Improve his shining tail,
-
-And pour the waters of the Nile
-
-On every golden scale!
-
-‘How cheerfully he seems to grin,
-
-How neatly spread his claws,
-
-And welcome little fishes in
-
-With gently smiling jaws!’
+<div class="verse">
+<p class="in0">‘How cheerfully he seems to grin,</p>
+<p class="in1">How neatly spread his claws,</p>
+<p class="in0">And welcome little fishes in</p>
+<p class="in1">With gently smiling jaws!’</p>
+</div>
 
 ‘I’m sure those are not the right words,’ said poor Alice, and her eyes filled with tears again as she went on, ‘I must be Mabel after all, and I shall have to go and live in that poky little house, and have next to no toys to play with, and oh! ever so many lessons to learn! No, I’ve made up my mind about it; if I’m Mabel, I’ll stay down here! It’ll be no use their putting their heads down and saying “Come up again, dear!” I shall only look up and say “Who am I then? Tell me that first, and then, if I like being that person, I’ll come up: if not, I’ll stay down here till I’m somebody else”— but, oh dear!’ cried Alice, with a sudden burst of tears, ‘I do wish they *would* put their heads down! I am so *very* tired of being all alone here!’
 
@@ -245,7 +271,7 @@ So she called softly after it, ‘Mouse dear! Do come back again, and we won’t
 
 It was high time to go, for the pool was getting quite crowded with the birds and animals that had fallen into it: there were a Duck and a Dodo, a Lory and an Eaglet, and several other curious creatures. Alice led the way, and the whole party swam to the shore.
 
-## Chapter III\
+## Chapter III \
 A Caucus-Race and a Long Tale
 
 They were indeed a queer-looking party that assembled on the bank — the birds with draggled feathers, the animals with their fur clinging close to them, and all dripping wet, cross, and uncomfortable.
@@ -318,93 +344,52 @@ The next thing was to eat the comfits: this caused some noise and confusion, as 
 
 ‘It *is* a long tail, certainly,’ said Alice, looking down with wonder at the Mouse’s tail; ‘but why do you call it sad?’ And she kept on puzzling about it while the Mouse was speaking, so that her idea of the tale was something like this:—
 
-‘Fury said to a
-
-mouse, That he
-
-met in the
-
-house,
-
-“Let us
-
-both go to
-
-law: I will
-
-prosecute
-
-*you* .— Come,
-
-I’ll take no
-
-denial; We
-
-must have a
-
-trial: For
-
-really this
-
-morning I’ve
-
-nothing
-
-to do.”
-
-Said the
-
-mouse to the
-
-cur, “Such
-
-a trial,
-
-dear Sir,
-
-With
-
-no jury
-
-or judge,
-
-would be
-
-wasting
-
-our
-
-breath.”
-
-“I’ll be
-
-judge, I’ll
-
-be jury,”
-
-Said
-
-cunning
-
-old Fury:
-
-“I’ll
-
-try the
-
-whole
-
-cause,
-
-and
-
-condemn
-
-you
-
-to
-
-death.”’
+<div class="verse" id="sadtail">
+<p class="in4">‘Fury said to a</p>
+<p class="in3">mouse, That he</p>
+<p class="in2">met in the</p>
+<p class="in1">house,</p>
+<p class="in0">“Let us</p>
+<p class="in1">both go to</p>
+<p class="in2">law: I will</p>
+<p class="in3">prosecute</p>
+<p class="in4">*you* .— Come,</p>
+<p class="in5">I’ll take no</p>
+<p class="in6">denial; We</p>
+<p class="in5">must have a</p>
+<p class="in4">trial: For</p>
+<p class="in3">really this</p>
+<p class="in4">morning I’ve</p>
+<p class="in5">nothing</p>
+<p class="in6">to do.”</p>
+<p class="in5">Said the</p>
+<p class="in4">mouse to the</p>
+<p class="in3">cur, “Such</p>
+<p class="in4">a trial,</p>
+<p class="in5">dear Sir,</p>
+<p class="in6">With</p>
+<p class="in7">no jury</p>
+<p class="in6">or judge,</p>
+<p class="in5">would be</p>
+<p class="in4">wasting</p>
+<p class="in3">our</p>
+<p class="in4">breath.”</p>
+<p class="in5">“I’ll be</p>
+<p class="in6">judge, I’ll</p>
+<p class="in7">be jury,”</p>
+<p class="in8">Said</p>
+<p class="in9">cunning</p>
+<p class="in10">old Fury:</p>
+<p class="in9">“I’ll</p>
+<p class="in11">try the</p>
+<p class="in12">whole</p>
+<p class="in13">cause,</p>
+<p class="in14">and</p>
+<p class="in13">condemn</p>
+<p class="in12">you</p>
+<p class="in11">to</p>
+<p class="in10">death.”’</p>
+</div>
 
 <a name="img03"></a>
 
@@ -438,7 +423,7 @@ This speech caused a remarkable sensation among the party. Some of the birds hur
 
 ‘I wish I hadn’t mentioned Dinah!’ she said to herself in a melancholy tone. ‘Nobody seems to like her, down here, and I’m sure she’s the best cat in the world! Oh, my dear Dinah! I wonder if I shall ever see you any more!’ And here poor Alice began to cry again, for she felt very lonely and low-spirited. In a little while, however, she again heard a little pattering of footsteps in the distance, and she looked up eagerly, half hoping that the Mouse had changed his mind, and was coming back to finish his story.
 
-## Chapter IV\
+## Chapter IV \
 The Rabbit Sends in a Little Bill
 
 It was the White Rabbit, trotting slowly back again, and looking anxiously about as it went, as if it had lost something; and she heard it muttering to itself ‘The Duchess! The Duchess! Oh my dear paws! Oh my fur and whiskers! She’ll get me executed, as sure as ferrets are ferrets! Where *can* I have dropped them, I wonder?’ Alice guessed in a moment that it was looking for the fan and the pair of white kid gloves, and she very good-naturedly began hunting about for them, but they were nowhere to be seen — everything seemed to have changed since her swim in the pool, and the great hall, with the glass table and the little door, had vanished completely.
@@ -541,7 +526,7 @@ The great question certainly was, what? Alice looked all round her at the flower
 
 She stretched herself up on tiptoe, and peeped over the edge of the mushroom, and her eyes immediately met those of a large caterpillar, that was sitting on the top with its arms folded, quietly smoking a long hookah, and taking not the smallest notice of her or of anything else.
 
-## Chapter V\
+## Chapter V \
 Advice from a Caterpillar
 
 The Caterpillar and Alice looked at each other for some time in silence: at last the Caterpillar took the hookah out of its mouth, and addressed her in a languid, sleepy voice.
@@ -600,85 +585,77 @@ Alice thought she might as well wait, as she had nothing else to do, and perhaps
 
 Alice folded her hands, and began:—
 
-‘You are old, Father William,’ the young man said,
-
-‘And your hair has become very white;
-
-And yet you incessantly stand on your head —
-
-Do you think, at your age, it is right?’
+<div class="verse">
+<p class="in0">‘You are old, Father William,’ the young man said,</p>
+<p class="in1">‘And your hair has become very white;</p>
+<p class="in0">And yet you incessantly stand on your head —</p>
+<p class="in1">Do you think, at your age, it is right?’</p>
+</div>
 
 <a name="img16"></a>
 
 ![Father William standing on head](images/000016.png)
 
-‘In my youth,’ Father William replied to his son,
+<div class="verse">
+<p class="in0">‘In my youth,’ Father William replied to his son,</p>
+<p class="in1">‘I feared it might injure the brain;</p>
+<p class="in0">But, now that I’m perfectly sure I have none,</p>
+<p class="in1">Why, I do it again and again.’</p>
+</div>
 
-‘I feared it might injure the brain;
-
-But, now that I’m perfectly sure I have none,
-
-Why, I do it again and again.’
-
-‘You are old,’ said the youth, ‘as I mentioned before,
-
-And have grown most uncommonly fat;
-
-Yet you turned a back-somersault in at the door —
-
-Pray, what is the reason of that?’
+<div class="verse">
+<p class="in0">‘You are old,’ said the youth, ‘as I mentioned before,</p>
+<p class="in1">And have grown most uncommonly fat;</p>
+<p class="in0">Yet you turned a back-somersault in at the door —</p>
+<p class="in1">Pray, what is the reason of that?’</p>
+</div>
 
 <a name="img02"></a>
 
 ![Father William somersaulting](images/000002.png)
 
-‘In my youth,’ said the sage, as he shook his grey locks,
+<div class="verse">
+<p class="in0">‘In my youth,’ said the sage, as he shook his grey locks,</p>
+<p class="in1">‘I kept all my limbs very supple</p>
+<p class="in0">By the use of this ointment — one shilling the box —</p>
+<p class="in1">Allow me to sell you a couple?’</p>
+</div>
 
-‘I kept all my limbs very supple
-
-By the use of this ointment — one shilling the box —
-
-Allow me to sell you a couple?’
-
-‘You are old,’ said the youth, ‘and your jaws are too weak
-
-For anything tougher than suet;
-
-Yet you finished the goose, with the bones and the beak —
-
-Pray how did you manage to do it?’
+<div class="verse">
+<p class="in0">‘You are old,’ said the youth, ‘and your jaws are too weak</p>
+<p class="in1">For anything tougher than suet;</p>
+<p class="in0">Yet you finished the goose, with the bones and the beak —</p>
+<p class="in1">Pray how did you manage to do it?’</p>
+</div>
 
 <a name="img15"></a>
 
 ![Father William having eaten the goose](images/000015.png)
 
-‘In my youth,’ said his father, ‘I took to the law,
+<div class="verse">
+<p class="in0">‘In my youth,’ said his father, ‘I took to the law,</p>
+<p class="in1">And argued each case with my wife;</p>
+<p class="in0">And the muscular strength, which it gave to my jaw,</p>
+<p class="in1">Has lasted the rest of my life.’</p>
+</div>
 
-And argued each case with my wife;
-
-And the muscular strength, which it gave to my jaw,
-
-Has lasted the rest of my life.’
-
-‘You are old,’ said the youth, ‘one would hardly suppose
-
-That your eye was as steady as ever;
-
-Yet you balanced an eel on the end of your nose —
-
-What made you so awfully clever?’
+<div class="verse">
+<p class="in0">‘You are old,’ said the youth, ‘one would hardly suppose</p>
+<p class="in1">That your eye was as steady as ever;</p>
+<p class="in0">Yet you balanced an eel on the end of your nose —</p>
+<p class="in1">What made you so awfully clever?’</p>
+</div>
 
 <a name="img32"></a>
 
 ![Father William balancing eel on nose](images/000032.png)
 
-‘I have answered three questions, and that is enough,’
-
-Said his father; ‘don’t give yourself airs!
-
-Do you think I can listen all day to such stuff?
-
-Be off, or I’ll kick you down stairs!’
+<div class="verse">
+<p class="in0">‘I have answered three questions, and that is enough,’</p>
+<p class="in1">Said his father; ‘don’t give yourself airs!</p>
+<p class="in0">Do you think I can listen all day to such stuff?</p>
+<p class="in1">Be off, or I’ll kick you down stairs!’</p>
+</div>
 
 ‘That is not said right,’ said the Caterpillar.
 
@@ -718,11 +695,13 @@ Alice remained looking thoughtfully at the mushroom for a minute, trying to make
 
 She was a good deal frightened by this very sudden change, but she felt that there was no time to be lost, as she was shrinking rapidly; so she set to work at once to eat some of the other bit. Her chin was pressed so closely against her foot, that there was hardly room to open her mouth; but she did it at last, and managed to swallow a morsel of the lefthand bit.
 
-\* \* \* \* \* \* \*\
- \
- \* \* \* \* \* \*\
- \
- \* \* \* \* \* \* \*
+<p class="center">
+`* * * * * * *`\
+\
+` * * * * * * `\
+\
+`* * * * * * *`\
+</p>
 
 ‘Come, my head’s free at last!’ said Alice in a tone of delight, which changed into alarm in another moment, when she found that her shoulders were nowhere to be found: all she could see, when she looked down, was an immense length of neck, which seemed to rise like a stalk out of a sea of green leaves that lay far below her.
 
@@ -768,7 +747,7 @@ This was such a new idea to Alice, that she was quite silent for a minute or two
 
 It was so long since she had been anything near the right size, that it felt quite strange at first; but she got used to it in a few minutes, and began talking to herself, as usual. ‘Come, there’s half my plan done now! How puzzling all these changes are! I’m never sure what I’m going to be, from one minute to another! However, I’ve got back to my right size: the next thing is, to get into that beautiful garden — how *is* that to be done, I wonder?’ As she said this, she came suddenly upon an open place, with a little house in it about four feet high. ‘Whoever lives there,’ thought Alice, ‘it’ll never do to come upon them *this* size: why, I should frighten them out of their wits!’ So she began nibbling at the righthand bit again, and did not venture to go near the house till she had brought herself down to nine inches high.
 
-## Chapter VI\
+## Chapter VI \
 Pig and Pepper
 
 For a minute or two she stood looking at the house, and wondering what to do next, when suddenly a footman in livery came running out of the wood —(she considered him to be a footman because he was in livery: otherwise, judging by his face only, she would have called him a fish)— and rapped loudly at the door with his knuckles. It was opened by another footman in livery, with a round face, and large eyes like a frog; and both footmen, Alice noticed, had powdered hair that curled all over their heads. She felt very curious to know what it was all about, and crept a little way out of the wood to listen.
@@ -849,33 +828,38 @@ Alice glanced rather anxiously at the cook, to see if she meant to take the hint
 
 ‘Oh, don’t bother *me* ,’ said the Duchess; ‘I never could abide figures!’ And with that she began nursing her child again, singing a sort of lullaby to it as she did so, and giving it a violent shake at the end of every line:
 
-‘Speak roughly to your little boy,
+<div class="verse">
+<p class="in0">‘Speak roughly to your little boy,</p>
+<p class="in1">And beat him when he sneezes:</p>
+<p class="in0">He only does it to annoy,</p>
+<p class="in1">Because he knows it teases.’</p>
+</div>
 
-And beat him when he sneezes:
+<div class="verse">
+<p class="in0">CHORUS.</p>
+<p class="in0">(In which the cook and the baby joined):—</p>
+</div>
 
-He only does it to annoy,
-
-Because he knows it teases.’
-
-CHORUS.
-
-(In which the cook and the baby joined):—
-
-‘Wow! wow! wow!’
+<div class="verse">
+<p class="in0">‘Wow! wow! wow!’</p>
+</div>
 
 While the Duchess sang the second verse of the song, she kept tossing the baby violently up and down, and the poor little thing howled so, that Alice could hardly hear the words:—
 
-‘I speak severely to my boy,
+<div class="verse">
+<p class="in0">‘I speak severely to my boy,</p>
+<p class="in0">I beat him when he sneezes;</p>
+<p class="in0">For he can thoroughly enjoy</p>
+<p class="in0">The pepper when he pleases!’</p>
+</div>
 
-I beat him when he sneezes;
+<div class="verse">
+<p class="in0">CHORUS.</p>
+</div>
 
-For he can thoroughly enjoy
-
-The pepper when he pleases!’
-
-CHORUS.
-
-‘Wow! wow! wow!’
+<div class="verse">
+<p class="in0">‘Wow! wow! wow!’</p>
+</div>
 
 ‘Here! you may nurse it a bit, if you like!’ the Duchess said to Alice, flinging the baby at her as she spoke. ‘I must go and get ready to play croquet with the Queen,’ and she hurried out of the room. The cook threw a frying-pan after her as she went out, but it just missed her.
 
@@ -965,7 +949,7 @@ Alice waited a little, half expecting to see it again, but it did not appear, an
 
 She had not gone much farther before she came in sight of the house of the March Hare: she thought it must be the right house, because the chimneys were shaped like ears and the roof was thatched with fur. It was so large a house, that she did not like to go nearer till she had nibbled some more of the lefthand bit of mushroom, and raised herself to about two feet high: even then she walked up towards it rather timidly, saying to herself ‘Suppose it should be raving mad after all! I almost wish I’d gone to see the Hatter instead!’
 
-## Chapter VII\
+## Chapter VII \
 A Mad Tea-Party
 
 There was a table set out under a tree in front of the house, and the March Hare and the Hatter were having tea at it: a Dormouse was sitting between them, fast asleep, and the other two were using it as a cushion, resting their elbows on it, and talking over its head. ‘Very uncomfortable for the Dormouse,’ thought Alice; ‘only, as it’s asleep, I suppose it doesn’t mind.’
@@ -1068,9 +1052,10 @@ Alice sighed wearily. ‘I think you might do something better with the time,’
 
 The Hatter shook his head mournfully. ‘Not I!’ he replied. ‘We quarrelled last March — just before *he* went mad, you know —’ (pointing with his tea spoon at the March Hare,) ‘— it was at the great concert given by the Queen of Hearts, and I had to sing
 
-“Twinkle, twinkle, little bat!
-
-How I wonder what you’re at!”
+<div class="verse continue">
+<p class="in0">“Twinkle, twinkle, little bat!</p>
+<p class="in0">How I wonder what you’re at!”</p>
+</div>
 
 You know the song, perhaps?’
 
@@ -1078,11 +1063,11 @@ You know the song, perhaps?’
 
 ‘It goes on, you know,’ the Hatter continued, ‘in this way:—
 
-“Up above the world you fly,
-
-Like a tea-tray in the sky.
-
-Twinkle, twinkle —”’
+<div class="verse">
+<p class="in0">“Up above the world you fly,</p>
+<p class="in0">Like a tea-tray in the sky.</p>
+<p class="in1">Twinkle, twinkle —”’</p>
+</div>
 
 Here the Dormouse shook itself, and began singing in its sleep ‘Twinkle, twinkle, twinkle, twinkle —’ and went on so long that they had to pinch it to make it stop.
 
@@ -1196,7 +1181,7 @@ Just as she said this, she noticed that one of the trees had a door leading righ
 
 Once more she found herself in the long hall, and close to the little glass table. ‘Now, I’ll manage better this time,’ she said to herself, and began by taking the little golden key, and unlocking the door that led into the garden. Then she went to work nibbling at the mushroom (she had kept a piece of it in her pocket) till she was about a foot high: then she walked down the little passage: and *then* — she found herself at last in the beautiful garden, among the bright flower-beds and the cool fountains.
 
-## Chapter VIII\
+## Chapter VIII \
 The Queen’s Croquet-Ground
 
 A large rose-tree stood near the entrance of the garden: the roses growing on it were white, but there were three gardeners at it, busily painting them red. Alice thought this a very curious thing, and she went nearer to watch them, and just as she came up to them she heard one of them say, ‘Look out now, Five! Don’t go splashing paint over me like that!’
@@ -1357,7 +1342,7 @@ Alice could think of nothing else to say but ‘It belongs to the Duchess: you�
 
 The Cat’s head began fading away the moment he was gone, and, by the time he had come back with the Duchess, it had entirely disappeared; so the King and the executioner ran wildly up and down looking for it, while the rest of the party went back to the game.
 
-## Chapter IX\
+## Chapter IX \
 The Mock Turtle’s Story
 
 ‘You can’t think how glad I am to see you again, you dear old thing!’ said the Duchess, as she tucked her arm affectionately into Alice’s, and they walked off together.
@@ -1556,7 +1541,7 @@ This was quite a new idea to Alice, and she thought it over a little before she 
 
 ‘That’s enough about lessons,’ the Gryphon interrupted in a very decided tone: ‘tell her something about the games now.’
 
-## Chapter X\
+## Chapter X \
 The Lobster Quadrille
 
 The Mock Turtle sighed deeply, and drew the back of one flapper across his eyes. He looked at Alice, and tried to speak, but for a minute or two sobs choked his voice. ‘Same as if he had a bone in his throat,’ said the Gryphon: and it set to work shaking him and punching him in the back. At last the Mock Turtle recovered his voice, and, with tears running down his cheeks, he went on again:—
@@ -1609,41 +1594,41 @@ The Mock Turtle sighed deeply, and drew the back of one flapper across his eyes.
 
 So they began solemnly dancing round and round Alice, every now and then treading on her toes when they passed too close, and waving their forepaws to mark the time, while the Mock Turtle sang this, very slowly and sadly:—
 
-‘“Will you walk a little faster?” said a whiting to a snail.
+<div class="verse">
+<p class="in0">‘“Will you walk a little faster?” said a whiting to a snail.</p>
+<p class="in0">“There’s a porpoise close behind us, and he’s treading on my tail.</p>
+<p class="in0">See how eagerly the lobsters and the turtles all advance!</p>
+<p class="in0">They are waiting on the shingle — will you come and join the dance?</p>
+</div>
 
-“There’s a porpoise close behind us, and he’s treading on my tail.
+<div class="verse">
+<p class="in1">Will you, won’t you, will you, won’t you, will you join the dance?</p>
+<p class="in1">Will you, won’t you, will you, won’t you, won’t you join the dance?</p>
+</div>
 
-See how eagerly the lobsters and the turtles all advance!
+<div class="verse">
+<p class="in0">“You can really have no notion how delightful it will be</p>
+<p class="in0">When they take us up and throw us, with the lobsters, out to sea!”</p>
+<p class="in0">But the snail replied “Too far, too far!” and gave a look askance —</p>
+<p class="in0">Said he thanked the whiting kindly, but he would not join the dance.</p>
+</div>
 
-They are waiting on the shingle — will you come and join the dance?
+<div class="verse">
+<p class="in1">Would not, could not, would not, could not, would not join the dance.</p>
+<p class="in1">Would not, could not, would not, could not, could not join the dance.</p>
+</div>
 
-Will you, won’t you, will you, won’t you, will you join the dance?
+<div class="verse">
+<p class="in0">‘“What matters it how far we go?” his scaly friend replied.</p>
+<p class="in0">“There is another shore, you know, upon the other side.</p>
+<p class="in0">The further off from England the nearer is to France —</p>
+<p class="in0">Then turn not pale, beloved snail, but come and join the dance.</p>
+</div>
 
-Will you, won’t you, will you, won’t you, won’t you join the dance?
-
-“You can really have no notion how delightful it will be
-
-When they take us up and throw us, with the lobsters, out to sea!”
-
-But the snail replied “Too far, too far!” and gave a look askance —
-
-Said he thanked the whiting kindly, but he would not join the dance.
-
-Would not, could not, would not, could not, would not join the dance.
-
-Would not, could not, would not, could not, could not join the dance.
-
-‘“What matters it how far we go?” his scaly friend replied.
-
-“There is another shore, you know, upon the other side.
-
-The further off from England the nearer is to France —
-
-Then turn not pale, beloved snail, but come and join the dance.
-
-Will you, won’t you, will you, won’t you, will you join the dance?
-
-Will you, won’t you, will you, won’t you, won’t you join the dance?”’
+<div class="verse">
+<p class="in1">Will you, won’t you, will you, won’t you, will you join the dance?</p>
+<p class="in1">Will you, won’t you, will you, won’t you, won’t you join the dance?”’</p>
+</div>
 
 ‘Thank you, it’s a very interesting dance to watch,’ said Alice, feeling very glad that it was over at last: ‘and I do so like that curious song about the whiting!’
 
@@ -1711,21 +1696,16 @@ So Alice began telling them her adventures from the time when she first saw the 
 
 ![Lobster primping before a mirror](images/000031.png)
 
-‘’Tis the voice of the Lobster; I heard him declare,
-
-“You have baked me too brown, I must sugar my hair.”
-
-As a duck with its eyelids, so he with his nose
-
-Trims his belt and his buttons, and turns out his toes.’
-
-When the sands are all dry, he is gay as a lark,
-
-And will talk in contemptuous tones of the Shark,
-
-But, when the tide rises and sharks are around,
-
-His voice has a timid and tremulous sound.
+<div class="verse">
+<p class="in0">‘’Tis the voice of the Lobster; I heard him declare,</p>
+<p class="in1">“You have baked me too brown, I must sugar my hair.”</p>
+<p class="in0">As a duck with its eyelids, so he with his nose</p>
+<p class="in1">Trims his belt and his buttons, and turns out his toes.’</p>
+<p class="in0">When the sands are all dry, he is gay as a lark,</p>
+<p class="in1">And will talk in contemptuous tones of the Shark,</p>
+<p class="in0">But, when the tide rises and sharks are around,</p>
+<p class="in1">His voice has a timid and tremulous sound.</p>
+</div>
 
 ‘That’s different from what I used to say when I was a child,’ said the Gryphon.
 
@@ -1745,21 +1725,16 @@ Alice said nothing; she had sat down with her face in her hands, wondering if an
 
 Alice did not dare to disobey, though she felt sure it would all come wrong, and she went on in a trembling voice:—
 
-‘I passed by his garden, and marked, with one eye,
-
-How the Owl and the Panther were sharing a pie —’
-
-The Panther took pie-crust, and gravy, and meat,
-
-While the Owl had the dish as its share of the treat.
-
-When the pie was all finished, the Owl, as a boon,
-
-Was kindly permitted to pocket the spoon:
-
-While the Panther received knife and fork with a growl,
-
-And concluded the banquet by —
+<div class="verse">
+<p class="in0">‘I passed by his garden, and marked, with one eye,</p>
+<p class="in1">How the Owl and the Panther were sharing a pie —’</p>
+<p class="in0">The Panther took pie-crust, and gravy, and meat,</p>
+<p class="in1">While the Owl had the dish as its share of the treat.</p>
+<p class="in0">When the pie was all finished, the Owl, as a boon,</p>
+<p class="in1">Was kindly permitted to pocket the spoon:</p>
+<p class="in0">While the Panther received knife and fork with a growl,</p>
+<p class="in1">And concluded the banquet by —</p>
+</div>
 
 ‘What *is* the use of repeating all that stuff,’ the Mock Turtle interrupted, ‘if you don’t explain it as you go on? It’s by far the most confusing thing I ever heard!’
 
@@ -1771,41 +1746,29 @@ And concluded the banquet by —
 
 The Mock Turtle sighed deeply, and began, in a voice sometimes choked with sobs, to sing this:—
 
-‘Beautiful Soup, so rich and green,
+<div class="verse">
+<p class="in0">‘Beautiful Soup, so rich and green,</p>
+<p class="in0">Waiting in a hot tureen!</p>
+<p class="in0">Who for such dainties would not stoop?</p>
+<p class="in0">Soup of the evening, beautiful Soup!</p>
+<p class="in0">Soup of the evening, beautiful Soup!</p>
+<p class="in1">Beau — ootiful Soo — oop!</p>
+<p class="in1">Beau — ootiful Soo — oop!</p>
+<p class="in0">Soo — oop of the e — e — evening,</p>
+<p class="in1">Beautiful, beautiful Soup!</p>
+</div>
 
-Waiting in a hot tureen!
-
-Who for such dainties would not stoop?
-
-Soup of the evening, beautiful Soup!
-
-Soup of the evening, beautiful Soup!
-
-Beau — ootiful Soo — oop!
-
-Beau — ootiful Soo — oop!
-
-Soo — oop of the e — e — evening,
-
-Beautiful, beautiful Soup!
-
-‘Beautiful Soup! Who cares for fish,
-
-Game, or any other dish?
-
-Who would not give all else for two
-
-Pennyworth only of beautiful Soup?
-
-Pennyworth only of beautiful Soup?
-
-Beau — ootiful Soo — oop!
-
-Beau — ootiful Soo — oop!
-
-Soo — oop of the e — e — evening,
-
-Beautiful, beauti — FUL SOUP!’
+<div class="verse">
+<p class="in0">‘Beautiful Soup! Who cares for fish,</p>
+<p class="in0">Game, or any other dish?</p>
+<p class="in0">Who would not give all else for two</p>
+<p class="in0">Pennyworth only of beautiful Soup?</p>
+<p class="in0">Pennyworth only of beautiful Soup?</p>
+<p class="in1">Beau — ootiful Soo — oop!</p>
+<p class="in1">Beau — ootiful Soo — oop!</p>
+<p class="in0">Soo — oop of the e — e — evening,</p>
+<p class="in1">Beautiful, beauti — FUL SOUP!’</p>
+</div>
 
 ‘Chorus again!’ cried the Gryphon, and the Mock Turtle had just begun to repeat it, when a cry of ‘The trial’s beginning!’ was heard in the distance.
 
@@ -1813,11 +1776,12 @@ Beautiful, beauti — FUL SOUP!’
 
 ‘What trial is it?’ Alice panted as she ran; but the Gryphon only answered ‘Come on!’ and ran the faster, while more and more faintly came, carried on the breeze that followed them, the melancholy words:—
 
-‘Soo — oop of the e — e — evening,
+<div class="verse">
+<p class="in0">‘Soo — oop of the e — e — evening,</p>
+<p class="in1">Beautiful, beautiful Soup!’</p>
+</div>
 
-Beautiful, beautiful Soup!’
-
-## Chapter XI\
+## Chapter XI \
 Who Stole the Tarts?
 
 The King and Queen of Hearts were seated on their throne when they arrived, with a great crowd assembled about them — all sorts of little birds and beasts, as well as the whole pack of cards: the Knave was standing before them, in chains, with a soldier on each side to guard him; and near the King was the White Rabbit, with a trumpet in one hand, and a scroll of parchment in the other. In the very middle of the court was a table, with a large dish of tarts upon it: they looked so good, that it made Alice quite hungry to look at them —‘I wish they’d get the trial done,’ she thought, ‘and hand round the refreshments!’ But there seemed to be no chance of this, so she began looking at everything about her, to pass away the time.
@@ -1846,13 +1810,12 @@ One of the jurors had a pencil that squeaked. This of course, Alice could not st
 
 On this the White Rabbit blew three blasts on the trumpet, and then unrolled the parchment scroll, and read as follows:—
 
-‘The Queen of Hearts, she made some tarts,
-
-All on a summer day:
-
-The Knave of Hearts, he stole those tarts,
-
-And took them quite away!’
+<div class="verse">
+<p class="in0">‘The Queen of Hearts, she made some tarts,</p>
+<p class="in1">All on a summer day:</p>
+<p class="in0">The Knave of Hearts, he stole those tarts,</p>
+<p class="in1">And took them quite away!’</p>
+</div>
 
 ‘Consider your verdict,’ the King said to the jury.
 
@@ -1986,7 +1949,7 @@ For some minutes the whole court was in confusion, getting the Dormouse turned o
 
 Alice watched the White Rabbit as he fumbled over the list, feeling very curious to see what the next witness would be like, ‘— for they haven’t got much evidence *yet* ,’ she said to herself. Imagine her surprise, when the White Rabbit read out, at the top of his shrill little voice, the name ‘Alice!’
 
-## Chapter XII\
+## Chapter XII \
 Alice’s Evidence
 
 ‘Here!’ cried Alice, quite forgetting in the flurry of the moment how large she had grown in the last few minutes, and she jumped up in such a hurry that she tipped over the jury-box with the edge of her skirt, upsetting all the jurymen on to the heads of the crowd below, and there they lay sprawling about, reminding her very much of a globe of goldfish she had accidentally upset the week before.
@@ -2071,53 +2034,47 @@ The White Rabbit put on his spectacles. ‘Where shall I begin, please your Maje
 
 These were the verses the White Rabbit read:—
 
-‘They told me you had been to her,
+<div class="verse">
+<p class="in0">‘They told me you had been to her,</p>
+<p class="in1">And mentioned me to him:</p>
+<p class="in0">She gave me a good character,</p>
+<p class="in1">But said I could not swim.</p>
+</div>
 
-And mentioned me to him:
+<div class="verse">
+<p class="in0">He sent them word I had not gone</p>
+<p class="in1">(We know it to be true):</p>
+<p class="in0">If she should push the matter on,</p>
+<p class="in1">What would become of you?</p>
+</div>
 
-She gave me a good character,
+<div class="verse">
+<p class="in0">I gave her one, they gave him two,</p>
+<p class="in1">You gave us three or more;</p>
+<p class="in0">They all returned from him to you,</p>
+<p class="in1">Though they were mine before.</p>
+</div>
 
-But said I could not swim.
+<div class="verse">
+<p class="in0">If I or she should chance to be</p>
+<p class="in1">Involved in this affair,</p>
+<p class="in0">He trusts to you to set them free,</p>
+<p class="in1">Exactly as we were.</p>
+</div>
 
-He sent them word I had not gone
+<div class="verse">
+<p class="in0">My notion was that you had been</p>
+<p class="in1">(Before she had this fit)</p>
+<p class="in0">An obstacle that came between</p>
+<p class="in1">Him, and ourselves, and it.</p>
+</div>
 
-(We know it to be true):
-
-If she should push the matter on,
-
-What would become of you?
-
-I gave her one, they gave him two,
-
-You gave us three or more;
-
-They all returned from him to you,
-
-Though they were mine before.
-
-If I or she should chance to be
-
-Involved in this affair,
-
-He trusts to you to set them free,
-
-Exactly as we were.
-
-My notion was that you had been
-
-(Before she had this fit)
-
-An obstacle that came between
-
-Him, and ourselves, and it.
-
-Don’t let him know she liked them best,
-
-For this must ever be
-
-A secret, kept from all the rest,
-
-Between yourself and me.’
+<div class="verse">
+<p class="in0">Don’t let him know she liked them best,</p>
+<p class="in1">For this must ever be</p>
+<p class="in0">A secret, kept from all the rest,</p>
+<p class="in1">Between yourself and me.’</p>
+</div>
 
 ‘That’s the most important piece of evidence we’ve heard yet,’ said the King, rubbing his hands; ‘so now let the jury —’
 
@@ -2177,5 +2134,5 @@ So she sat on, with closed eyes, and half believed herself in Wonderland, though
 
 Lastly, she pictured to herself how this same little sister of hers would, in the after-time, be herself a grown woman; and how she would keep, through all her riper years, the simple and loving heart of her childhood: and how she would gather about her other little children, and make *their* eyes bright and eager with many a strange tale, perhaps even with the dream of Wonderland of long ago: and how she would feel with all their simple sorrows, and find a pleasure in all their simple joys, remembering her own child-life, and the happy summer days.
 
-THE END
+<p class="center">THE END</p>
 

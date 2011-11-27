@@ -1,1 +1,139 @@
+/* mdepub book style sheet
+
+  This style sheet is provided as a starting point for formatting an ebook full
+  of prose.
+
+  Paragraphs will not have spaces before and after then and will be indented by
+  2em, but paragraphs following headings and breaks WILL be preceeded by a space
+  and not be indented.
+
+  Read through the comments below and look for pre-defined classes that you
+  should use as you format your publication. Add any additional style sheet code
+  you need for your project at the end of this file.
+
+*/
+
+/* Indent first line by 2em */
+	p {
+		margin-top: 0; margin-bottom: 0;
+		text-indent: 2em; text-align: justify;
+	}
+
+/* Don't indent first paragraph; don't indent after display blocks marked
+	'.continue'.
+*/
+	h2 + p, h3 + p, div.secbreak + p, hr + p, .continue + p {
+		margin-top: 1em;
+		text-indent: 0;
+	}
+
+/* Headings */
+	h1, h2 { page-break-before: always; font-weight: normal; text-align: center; }
+	h1 { margin-top: 3em; margin-bottom: 3em; font-size: 200%; }
+	h2 { margin-top: 3em; margin-bottom: 1em; font-size: 125%; }
+	h3 { margin-top: 2em; margin-bottom: 1em; font-size: 115%;
+		text-align: left; font-weight: bold; }
+
+/* Various kinds of blocks:
+
+	.break - start a new page
+	.center - center each line in this block/paragraph
+	.spaced - remove paragraph indent; add margin above and below
+	.left - remove full justification and indent; align neft; add margin above
+		and below
+	.unspaced - remove paragraph indent; do not add margin above and below
+	.attribution - align right
+	hr - display a horizontal rule 30% of text width
+	div.figure - centered div for displaying an image; this class is assigned
+		automatically by pandoc when an image is alone in a paragraph with an
+		optional caption given in alt text
+
+*/
+	blockquote { margin: 1em 2em 1em 2em; line-height: 100%; }
+	.break { page-break-before: always; }
+	.center, .center p, .spaced, .spaced p, .left, .left p, li p {
+		margin-top: 1em; margin-bottom: 1em; text-indent: 0;
+	}
+	.center, .center p { text-align: center; }
+	div.figure {
+		margin-top: 1em; margin-bottom: 1em;
+		margin-left: auto; margin-right: auto;
+		text-indent: 0; text-align: center;
+	}
+	div.figure p.caption {
+		font-style: italic; font-size: .8em; text-align: center;
+	}
+	.left, .left p { text-align: left; }
+	.unspaced p { margin-top: 0; margin-bottom: 0; text-indent: 0; }
+	ul, ol { margin-top: 1em; margin-bottom: 1em; }
+	li p { text-align: justify; }
+	.attribution, blockquote .attribution { text-align: right; }
+	hr {
+		margin-top: 1em; margin-bottom: 1em;
+		border: 0; width: 30%; height: 1px;
+		color: gray; background-color: gray;
+		margin-left: 35%; margin-right: 35%;
+	}
+
+/* Verse
+
+	Include each stanza in a div.verse. Each line should be one paragraph. For
+	indented lines, use classes in0, in1, in2, etc.
+
+*/
+	div.verse {
+		margin-top: 1em; margin-bottom: 1em;
+	}
+	div.verse p {
+		line-height: 100%;
+		padding-left: 3em; text-indent: -3em; text-align: left;
+		margin-top: 0; margin-bottom: 0;
+	}
+	div.verse p.in0  { padding-left:  4.0em; }
+	div.verse p.in1  { padding-left:  5.5em; }
+	div.verse p.in2  { padding-left:  7.0em; }
+	div.verse p.in3  { padding-left:  8.5em; }
+	div.verse p.in4  { padding-left: 10.0em; }
+	div.verse p.in5  { padding-left: 11.5em; }
+	div.verse p.in6  { padding-left: 13.0em; }
+	
+/* Tables */
+	table { margin-left: auto; margin-right: auto; text-indent: 0; }
+
+/* Font style for a large block */
+	.b { font-weight: bold; }
+	.i { font-style: italic; } .i em { font-style: normal; }
+
+/* Fonts */
+	.big { font-size: 125%; }
+	.giant { font-size: 200%; }
+	.fixed { font-family: monospace; }
+	sup { vertical-align: text-top; font-size: 66%; }
+	sub { vertical-align: text-bottom; font-size: 66%; }
+
+
+/* ----------------------------------------------------------------------
+  Add your custom stylesheet code for this publication below this line.
+---------------------------------------------------------------------- */
+
+/* The mouse's sad tail poem */
+div#sadtail p.in0  { padding-left:  4.0em; }
+div#sadtail p.in1  { padding-left:  5.0em; }
+div#sadtail p.in2  { padding-left:  6.0em; }
+div#sadtail p.in3  { padding-left:  7.0em; }
+div#sadtail p.in4  { padding-left:  8.0em; }
+div#sadtail p.in5  { padding-left:  9.0em; }
+div#sadtail p.in6  { padding-left: 10.0em; }
+div#sadtail p.in7  { padding-left: 11.0em; }
+div#sadtail p.in8  { padding-left: 12.0em; }
+div#sadtail p.in9  { padding-left: 13.0em; }
+div#sadtail p.in10 { padding-left: 14.0em; }
+div#sadtail p.in11 { padding-left: 15.0em; }
+div#sadtail p.in12 { padding-left: 16.0em; }
+div#sadtail p.in13 { padding-left: 17.0em; }
+div#sadtail p.in14 { padding-left: 18.0em; }
+
+/*
+body { line-height: 130%; }
+*/
 
