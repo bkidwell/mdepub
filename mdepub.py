@@ -7,7 +7,6 @@ import mdepub.actions
 
 log = logging.getLogger('main')
 
-#print yaml.dump(mdepub.arguments)
 log.debug("Arguments: %s", repr(mdepub.arguments))
 
 for action in mdepub.arguments.action:

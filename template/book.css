@@ -64,18 +64,18 @@
 	}
 
 /* Tables */
-table { margin-left: auto; margin-right: auto; text-indent: 0; }
+	table { margin-left: auto; margin-right: auto; text-indent: 0; }
 
 /* Font style for a large block */
-.b { font-weight: bold; }
-.i { font-style: italic; }
+	.b { font-weight: bold; }
+	.i { font-style: italic; }
 
 /* Fonts */
-.big { font-size: 125%; }
-.giant { font-size: 200%; }
-.fixed { font-family: monospace; }
-sup { vertical-align: text-top; font-size: 66%; }
-sub { vertical-align: text-bottom; font-size: 66%; }
+	.big { font-size: 125%; }
+	.giant { font-size: 200%; }
+	.fixed { font-family: monospace; }
+	sup { vertical-align: text-top; font-size: 66%; }
+	sub { vertical-align: text-bottom; font-size: 66%; }
 
 
 /* ----------------------------------------------------------------------
