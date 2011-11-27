@@ -2,6 +2,7 @@ import logging
 import os
 import yaml
 from mdepub.argumentparser import ArgumentParser
+options = None
 import filename
 
 # actions:
@@ -14,7 +15,6 @@ project_path = os.getcwd()
 log.debug("Working path: %s", project_path)
 
 options_file = os.path.join(project_path, "options.yaml")
-options = None
 if os.path.exists(options_file):
     log.debug("Loading options.yaml")
     options = yaml.load(open("options.yaml"))

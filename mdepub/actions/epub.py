@@ -7,6 +7,7 @@ from mdepub import project_path
 from mdepub import arguments
 from zipfile import ZipFile
 from BeautifulSoup import BeautifulSoup
+from mdepub.filename import getFN
 
 log = logging.getLogger('epub')
 
@@ -22,7 +23,7 @@ def run():
 
     time = {}
     for ext in ['md', 'css', 'html', 'zip']:
-        f = "%s.%s" % (options['filename'], ext)
+        f = getFN(ext)
         if os.path.exists(f):
             time[ext] = os.path.getmtime(f)
         else:
@@ -30,7 +31,7 @@ def run():
 
     if time['html'] < time['md'] or time['html'] < time['css']:
         mdepub.actions.html.run()
-        time['html'] = os.path.getmtime("%s.html" % options['filename'])
+        time['html'] = os.path.getmtime(getFN("html"))
     if time['zip'] < time['html']:
         mdepub.actions.archive.run()
 
@@ -42,8 +43,8 @@ def run():
 
     args = [
         "ebook-convert",
-        "\"%s.html\"" % options['filename'],
-        "\"%s.epub\"" % options['filename'],
+        getFN("html"),
+        getFN("epub"),
         "--authors=\"%s\"" % quote(options['authors']),
         "--author-sort=\"%s\"" % quote(options['author sort']),
         "--pubdate=\"%s\"" % options['publication date'],
@@ -80,17 +81,16 @@ def run():
     # Run ebook-convert
 
     shell.run(" ".join(args), shell=True)
-    #shell.save_output(args, "%s.html" % options['filename'])
 
     # Add source zip file to epub and update content.opf with correct uuid
 
     metadata = None
-    with ZipFile("%s.epub" % options['filename'], 'a') as zip:
+    with ZipFile(getFN("epub"), 'a') as zip:
         if arguments.source:
-            zip.write("%s.zip" % options['filename'], "META-INF/source.mdepub.zip")
+            zip.write(getFN("zip"), "META-INF/source.mdepub.zip")
         metadata = zip.read("content.opf")
-    shell.run(["zip", "-d", "%s.epub" % options['filename'], "content.opf"])
-    with ZipFile("%s.epub" % options['filename'], 'a') as zip:
+    shell.run(["zip", "-d", getFN("epub"), "content.opf"])
+    with ZipFile(getFN("epub"), 'a') as zip:
         #metadata = zip.read("content.opf")
         soup = BeautifulSoup(metadata)
         id = soup.find(id="uuid_id")

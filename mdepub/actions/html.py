@@ -5,6 +5,7 @@ import os
 from mdepub import options
 from mdepub import project_path
 from BeautifulSoup import BeautifulSoup
+from mdepub.filename import getFN
 
 log = logging.getLogger('html')
 
@@ -25,7 +26,7 @@ def run():
 
     os.chdir(project_path)
 
-    css_file = "%s.css" % options['filename']
+    css_file = getFN("css")
 
     args = ["pandoc", "--standalone", "--email-obfuscation=none"]
 
@@ -33,12 +34,11 @@ def run():
         args.extend(["-c", css_file])
     if options['smart quotes']:
         args.append("--smart")
-    args.append("%s.md" % options['filename'])
+    args.append(getFN("md"))
 
-    #shell.save_output(args, "%s.html" % options['filename'])
     html = shell.pipe(args, None)
 
     checkForBadLinks(html)
 
-    with file("%s.html" % options['filename'], 'w') as f:
+    with file(getFN("html"), 'w') as f:
         f.write(html)
