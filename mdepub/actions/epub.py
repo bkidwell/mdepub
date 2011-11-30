@@ -43,8 +43,8 @@ def run():
 
     args = [
         "ebook-convert",
-        getFN("html"),
-        getFN("epub"),
+        '"' + getFN("html") + '"',
+        '"' + getFN("epub") + '"',
         "--authors=\"%s\"" % quote(options['authors']),
         "--author-sort=\"%s\"" % quote(options['author sort']),
         "--pubdate=\"%s\"" % options['publication date'],

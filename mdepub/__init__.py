@@ -5,9 +5,6 @@ from mdepub.argumentparser import ArgumentParser
 options = None
 import filename
 
-# actions:
-import clean
-
 logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger('mdepub')
 
