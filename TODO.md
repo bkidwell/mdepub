@@ -6,3 +6,4 @@
 * finalize template css file
 * implement create action
 * handle 'require mdepub version' option
+* change old string interpolation ( '%' ) to string.format() calls
