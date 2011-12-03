@@ -113,6 +113,6 @@ def run():
         #metadata = zip.read("content.opf")
         soup = BeautifulSoup(metadata)
         id = soup.find(id="uuid_id")
-        id.contents[0].replaceWith(options.get('uuid') or uuid.uuid4())
+        id.contents[0].replaceWith(options.get('uuid') or mdepub.new_id())
         #print soup
         zip.writestr("content.opf", str(soup))

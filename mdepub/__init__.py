@@ -4,6 +4,10 @@ import yaml
 from mdepub.argumentparser import ArgumentParser
 options = None
 import filename
+import uuid
+
+def new_id():
+    return uuid.uuid4()
 
 logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger('mdepub')

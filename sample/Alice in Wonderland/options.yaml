@@ -20,7 +20,7 @@ language: English
 rating: ~ # personal rating
 series: ~ # name of the series
 series index: ~ # ordinal number within a series
-uuid: 8220b2f8-0f38-11e1-962f-889ffa5498bb
+uuid: 57c9f0ba-582c-4a4e-98cd-ed4511717a9e
 
 # Tags: give a list of tag names enclosed in square brackets and separated by
 # commas. For consistency, use all lowercase and give multiple word tags with
