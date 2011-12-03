@@ -8,6 +8,7 @@ from mdepub import arguments
 from zipfile import ZipFile
 from BeautifulSoup import BeautifulSoup
 from mdepub.filename import getFN
+import uuid
 
 log = logging.getLogger('epub')
 
@@ -37,24 +38,41 @@ def run():
 
     # Get description html from markdown
 
-    description = shell.pipe(["pandoc"], options['description'])
+    if 'description' in options:
+        description = shell.pipe(["pandoc"], options['description'])
+    else:
+        description = ""
 
     # Setup ebook-convert args
 
+    if not 'title' in options: raise "No title given in options.yaml"
     args = [
         "ebook-convert",
         '"' + getFN("html") + '"',
         '"' + getFN("epub") + '"',
-        "--authors=\"%s\"" % quote(options['authors']),
-        "--author-sort=\"%s\"" % quote(options['author sort']),
-        "--pubdate=\"%s\"" % options['publication date'],
-        "--title=\"%s\"" % quote(options['title']),
-        "--tags=\"%s\"" % quote(','.join(options['tags'])),
-        "--comments=\"%s\"" % quote(description)
+        "--title=\"%s\"" % quote(options['title'])
     ]
-    args.append("--chapter=\"//h:h%s\"" % options['chapter head level'])
+    for a, b in (
+        ('author-sort',   'author sort'),
+        ('authors',       'authors'),
+        ('book-producer', 'book producer'),
+        ('isbn',          'isbn'),
+        ('language',      'language'),
+        ('pubdate',       'publication date'),
+        ('publisher',     'publisher'),
+        ('rating',        'rating'),
+        ('series',        'series'),
+        ('series-index',  'series index'),
+        ('title-sort',    'title sort'),
+    ):
+        if options.get(b): args.append("--%s=\"%s\"" % (a, options[b]))
+
+    if options.get("tags"):
+        args.append(  "--tags=\"%s\"" % quote(','.join(options['tags']))  )
+
+    args.append("--chapter=\"//h:h%s\"" % (options.get('chapter head level') or 2))
     tmp = []
-    for i in range(options['chapter head level']):
+    for i in range(options.get('chapter head level') or 2):
         if len(tmp) > 0: tmp.append("or")
         tmp.append("name()='h%s'" % str(i + 1))
     args.append(
@@ -70,13 +88,14 @@ def run():
 
     if cover_filename:
         args.append("--cover=%s" % cover_filename)
-        if not options['stretch cover image']:
+        if not options.get('stretch cover image'):
             args.append("--preserve-cover-aspect-ratio")
 
-    for i in ['top', 'left', 'right', 'bottom']:
-        if options['margin'][i] is not None:
-            args.append("--margin-%s" % i)
-            args.append(str(options['margin'][i]))
+    if options.get('margin'):
+        for i in ['top', 'left', 'right', 'bottom']:
+            if options['margin'].get(i) is not None:
+                args.append("--margin-%s" % i)
+                args.append(str(options['margin'][i]))
 
     # Run ebook-convert
 
@@ -94,11 +113,6 @@ def run():
         #metadata = zip.read("content.opf")
         soup = BeautifulSoup(metadata)
         id = soup.find(id="uuid_id")
-        id.contents[0].replaceWith(options['uuid'])
-        print soup
+        id.contents[0].replaceWith(options.get('uuid') or uuid.uuid4())
+        #print soup
         zip.writestr("content.opf", str(soup))
-
-#TODO: series, series-index
-#TODO: publisher
-#TODO: language
-#TODO: rating

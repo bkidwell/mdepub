@@ -1,14 +1,35 @@
-require version: "0.1" # Require at least this version of mdepub
+# mdepub options file
+#
+# Specify missing or unknown values with the tilde (~) character, for example:
+#    title sort: ~
+# Some missing values such as 'title sort' and 'filename' will be determined
+# automatically. Long strings containing punctuation should be enclosed in
+# double quotes. All values are optional except for 'title'.
+
+require mde version: "0.1" # Require at least this version of mdepub
 
 title: "Alice's Adventures in Wonderland"
+title sort: ~
 authors: "Lewis Carroll"
 author sort: "Carroll, Lewis"
 publication date: "26 Nov 1865" # must be a string D MMM YYYY
-tags: [children, fiction, fantasy]
+publisher: ~
+book producer: Brendan Kidwell
+isbn: ~
+language: English
+rating: ~ # personal rating
+series: ~ # name of the series
+series index: ~ # ordinal number within a series
 uuid: 8220b2f8-0f38-11e1-962f-889ffa5498bb
 
+# Tags: give a list of tag names enclosed in square brackets and separated by
+# commas. For consistency, use all lowercase and give multiple word tags with
+# hyphens instead of spaces. For example:
+#    [fiction, historical-fiction, boston]
+tags: [children, fiction, fantasy]
+
 # Uncomment this to customize the base filename ($filename.md, $filename.html, etc.)
-# filename: "Alices Adventures in Wonderland"
+filename: ~
 
 # Book description using Markdown syntax.
 description: |
@@ -27,4 +48,3 @@ margin:
   left: 8
   right: 8
   bottom: ~
-

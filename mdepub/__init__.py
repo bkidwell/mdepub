@@ -17,7 +17,7 @@ if os.path.exists(options_file):
     options = yaml.load(open("options.yaml"))
     #print yaml.dump(options)
     #print options.keys()
-    if not 'filename' in options:
+    if not options.get('filename'):
         options['filename'] = filename.clean(options['title'])
     log.debug("Filename: %s", options['filename'])
 else:
