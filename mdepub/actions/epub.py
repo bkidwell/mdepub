@@ -18,6 +18,7 @@ def quote(text):
 
 def run():
     log.debug("run()")
+    mdepub.require_opts_file()
 
     os.chdir(project_path)
 

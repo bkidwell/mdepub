@@ -15,6 +15,7 @@ r_uuid = re.compile(
 
 def run():
     log.debug("run()")
+    mdepub.require_opts_file()
     os.chdir(project_path)
 
     print mdepub.options
