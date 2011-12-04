@@ -50,7 +50,7 @@ def run():
         "ebook-convert",
         '"' + getFN("html") + '"',
         '"' + getFN("epub") + '"',
-        "--title=\"%s\"" % quote(options['title'])
+        "--title=\"{}\"".format(quote(options['title']))
     ]
     for a, b in (
         ('author-sort',   'author sort'),
@@ -65,36 +65,36 @@ def run():
         ('series-index',  'series index'),
         ('title-sort',    'title sort'),
     ):
-        if options.get(b): args.append("--%s=\"%s\"" % (a, options[b]))
+        if options.get(b): args.append("--{}=\"{}\"".format(a, quote(options[b])))
 
     if options.get("tags"):
-        args.append(  "--tags=\"%s\"" % quote(','.join(options['tags']))  )
+        args.append(  "--tags=\"{}\"".format(quote(','.join(options['tags'])))  )
 
-    args.append("--chapter=\"//h:h%s\"" % (options.get('chapter head level') or 2))
+    args.append("--chapter=\"//h:h{}\"".format(options.get('chapter head level') or 2))
     tmp = []
     for i in range(options.get('chapter head level') or 2):
         if len(tmp) > 0: tmp.append("or")
-        tmp.append("name()='h%s'" % str(i + 1))
+        tmp.append("name()='h{}'".format(str(i + 1)))
     args.append(
-        "--level1-toc=\"//*[%s]\"" % " ".join(tmp)
+        "--level1-toc=\"//*[{}]\"".format(" ".join(tmp))
     )
 
     for ext in ["png", "jpg", "svg"]:
-        cover_filename = "cover.%s" % ext
+        cover_filename = "cover.{}".format(ext)
         if os.path.exists(cover_filename):
             break
         else:
             cover_filename = None
 
     if cover_filename:
-        args.append("--cover=%s" % cover_filename)
+        args.append("--cover=\"{}\"".format(cover_filename))
         if not options.get('stretch cover image'):
             args.append("--preserve-cover-aspect-ratio")
 
     if options.get('margin'):
         for i in ['top', 'left', 'right', 'bottom']:
             if options['margin'].get(i) is not None:
-                args.append("--margin-%s" % i)
+                args.append("--margin-{}".format(i))
                 args.append(str(options['margin'][i]))
 
     # Run ebook-convert

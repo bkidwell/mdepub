@@ -19,7 +19,7 @@ def checkForBadLinks(html):
         href = tag['href']
         if href[:1] == u'#':
             if href[1:] not in ids:
-                log.warn("Internal link points to non-existent target '%s'" % href)
+                log.warn("Internal link points to non-existent target '{}'".format(href))
 
 def run():
     log.debug("run()")
