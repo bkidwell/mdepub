@@ -2,10 +2,12 @@ import logging
 import mdepub
 from mdepub import shell
 import os
+import os.path
 from mdepub import options
 from mdepub import project_path
 from BeautifulSoup import BeautifulSoup
 from mdepub.filename import getFN
+import sys
 
 log = logging.getLogger('html')
 
@@ -31,11 +33,16 @@ def run():
 
     args = ["pandoc", "--standalone", "--email-obfuscation=none"]
 
+    src = getFN("md")
+    if not os.path.exists(src):
+        log.fatal("\"%s\" not found.", src)
+        sys.exit(1)
+
     if os.path.exists(css_file):
         args.extend(["-c", css_file])
     if options['smart quotes']:
         args.append("--smart")
-    args.append(getFN("md"))
+    args.append(src)
 
     html = shell.pipe(args, None)
 

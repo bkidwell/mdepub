@@ -1,6 +1,7 @@
 import unicodedata
 import string
 import mdepub
+import os.path
 
 validFilenameChars = "'-_.() {}{}".format(string.ascii_letters, string.digits)
 

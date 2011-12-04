@@ -38,6 +38,9 @@ else:
 
 arguments = ArgumentParser().parse_args()
 
+if arguments.filename:
+    options['filename'] = arguments.filename
+
 def require_opts_file():
     if options_loaded: return
     log.fatal("No options.yaml file found for this project.")
