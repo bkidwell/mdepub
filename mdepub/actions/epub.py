@@ -9,6 +9,7 @@ from zipfile import ZipFile
 from BeautifulSoup import BeautifulSoup
 from mdepub.filename import getFN
 import uuid
+import sys
 
 log = logging.getLogger('epub')
 
@@ -45,7 +46,9 @@ def run():
 
     # Setup ebook-convert args
 
-    if not 'title' in options: raise "No title given in options.yaml"
+    if not 'title' in options:
+        log.fatal("No title given in options.yaml.")
+        sys.exit(1)
     args = [
         "ebook-convert",
         '"' + getFN("html") + '"',

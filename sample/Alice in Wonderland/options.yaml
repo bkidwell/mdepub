@@ -6,7 +6,7 @@
 # automatically. Long strings containing punctuation should be enclosed in
 # double quotes. All values are optional except for 'title'.
 
-require mde version: "0.1" # Require at least this version of mdepub
+require mdepub version: "0.1" # Require at least this version of mdepub
 
 title: "Alice's Adventures in Wonderland"
 title sort: ~

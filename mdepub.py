@@ -4,6 +4,7 @@ import logging
 import mdepub
 import yaml
 import mdepub.actions
+import sys
 
 log = logging.getLogger('main')
 

@@ -6,8 +6,6 @@ from mdepub import options
 import re
 import os
 
-# TODO: implement 'clean' action
-
 log = logging.getLogger('newid')
 
 r_uuid = re.compile(

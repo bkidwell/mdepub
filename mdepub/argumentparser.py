@@ -17,6 +17,7 @@ actions:
   epub     Convert HTML to Epub and include source zip file
   clean    Delete output files except Epub package
   newid    Assign a new ID for this project in options.yaml
+  version  Print mdepub version number
 
 required files:
   options.yaml  Project options
@@ -39,7 +40,7 @@ respective output files.
 def setup_args(parser):
     parser.add_argument(
         'action', nargs='+', metavar='action',
-        choices=['create', 'html', 'archive', 'epub', 'clean', 'newid'],
+        choices=['create', 'html', 'archive', 'epub', 'clean', 'newid', 'version'],
         help="Which action to perform."
     )
     parser.add_argument(
