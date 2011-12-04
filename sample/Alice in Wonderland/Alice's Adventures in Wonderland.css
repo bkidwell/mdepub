@@ -78,7 +78,8 @@
 /* Verse
 
 	Include each stanza in a div.verse. Each line should be one paragraph. For
-	indented lines, use classes in0, in1, in2, etc.
+	indented lines, use classes in0, in1, in2, etc. Overlong lines will have
+	a hanging indent (all but first line indented by 3em)
 
 */
 	div.verse {
@@ -96,7 +97,7 @@
 	div.verse p.in4  { padding-left: 10.0em; }
 	div.verse p.in5  { padding-left: 11.5em; }
 	div.verse p.in6  { padding-left: 13.0em; }
-	
+
 /* Tables */
 	table { margin-left: auto; margin-right: auto; text-indent: 0; }
 
@@ -132,8 +133,3 @@ div#sadtail p.in11 { padding-left: 15.0em; }
 div#sadtail p.in12 { padding-left: 16.0em; }
 div#sadtail p.in13 { padding-left: 17.0em; }
 div#sadtail p.in14 { padding-left: 18.0em; }
-
-/*
-body { line-height: 130%; }
-*/
-

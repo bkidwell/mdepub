@@ -1,9 +1,5 @@
 # Alice’s Adventures in Wonderland
 
-<!--
-TODO: decide between global followed by local stylesheet or local-only stylesheet
--->
-
 <div class="center">
 
 by Lewis Carroll
@@ -17,7 +13,8 @@ eBooks@Adelaide\
 
 <div class="break spaced">
 
-*mdepub explanation goes here*
+*This `.epub` book was built with `mdepub`, a wrapper for `pandoc` and Calibre's `ebook-convert`.* The source code for this book is included inside the `.epub` package file; to access the source code open this `.epub` file in an archive tool such as WinZip or File Roller, browse into the `./META-INF` folder, and extract `source.mdepub.zip`. For more information, please see:\
+<https://github.com/bkidwell/mdepub>
 
 Document history:
 
@@ -38,18 +35,18 @@ South Australia 5005
 
 **Table of Contents**
 
-1.  [Down the Rabbit-Hole](#chapter-i-down-the-rabbit-hole)
-2.  [The Pool of Tears](#chapter-ii-the-pool-of-tears)
-3.  [A Caucus-Race and a Long Tale](#chapter-iii-a-caucus-race-and-a-long-tale)
-4.  [The Rabbit Sends in a Little Bill](#chapter-iv-the-rabbit-sends-in-a-little-bill)
-5.  [Advice from a Caterpillar](#chapter-v-advice-from-a-caterpillar)
-6.  [Pig and Pepper](#chapter-vi-pig-and-pepper)
-7.  [A Mad Tea-Party](#chapter-vii-a-mad-tea-party)
-8.  [The Queen’s Croquet-Ground](#chapter-viii-the-queens-croquet-ground)
-9.  [The Mock Turtle’s Story](#chapter-ix-the-mock-turtles-story)
-10. [The Lobster Quadrille](#chapter-x-the-lobster-quadrille)
-11. [Who Stole the Tarts?](#chapter-xi-who-stole-the-tarts)
-12. [Alice’s Evidence](#chapter-xii-alices-evidence)
+I.   [Down the Rabbit-Hole](#chapter-i-down-the-rabbit-hole)
+II.  [The Pool of Tears](#chapter-ii-the-pool-of-tears)
+III. [A Caucus-Race and a Long Tale](#chapter-iii-a-caucus-race-and-a-long-tale)
+IV.  [The Rabbit Sends in a Little Bill](#chapter-iv-the-rabbit-sends-in-a-little-bill)
+V.   [Advice from a Caterpillar](#chapter-v-advice-from-a-caterpillar)
+VI.  [Pig and Pepper](#chapter-vi-pig-and-pepper)
+VII. [A Mad Tea-Party](#chapter-vii-a-mad-tea-party)
+VII. [The Queen’s Croquet-Ground](#chapter-viii-the-queens-croquet-ground)
+IX.  [The Mock Turtle’s Story](#chapter-ix-the-mock-turtles-story)
+X.   [The Lobster Quadrille](#chapter-x-the-lobster-quadrille)
+XI.  [Who Stole the Tarts?](#chapter-xi-who-stole-the-tarts)
+XII. [Alice’s Evidence](#chapter-xii-alices-evidence)
 
 **List of Illustrations**
 
@@ -2135,4 +2132,3 @@ So she sat on, with closed eyes, and half believed herself in Wonderland, though
 Lastly, she pictured to herself how this same little sister of hers would, in the after-time, be herself a grown woman; and how she would keep, through all her riper years, the simple and loving heart of her childhood: and how she would gather about her other little children, and make *their* eyes bright and eager with many a strange tale, perhaps even with the dream of Wonderland of long ago: and how she would feel with all their simple sorrows, and find a pleasure in all their simple joys, remembering her own child-life, and the happy summer days.
 
 <p class="center">THE END</p>
-

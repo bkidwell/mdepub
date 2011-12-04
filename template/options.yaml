@@ -1,0 +1,50 @@
+# mdepub options file
+#
+# Specify missing or unknown values with the tilde (~) character, for example:
+#    title sort: ~
+# Some missing values such as 'title sort' and 'filename' will be determined
+# automatically. Long strings containing punctuation should be enclosed in
+# double quotes. All values are optional except for 'title'.
+
+require mdepub version: "0.1" # Require at least this version of mdepub
+
+title: {Title}
+title sort: ~
+authors: {Author}
+author sort: ~
+publication date: {Date} # must be a string D MMM YYYY
+publisher: ~
+book producer: ~
+isbn: ~
+language: ~
+rating: ~ # personal rating
+series: ~ # name of the series
+series index: ~ # ordinal number within a series
+uuid: {uuid}
+
+# Tags: give a list of tag names enclosed in square brackets and separated by
+# commas. For consistency, use all lowercase and give multiple word tags with
+# hyphens instead of spaces. For example:
+#    [fiction, historical-fiction, boston]
+tags: ~
+
+# Uncomment this to customize the base filename ($filename.md, $filename.html, etc.)
+filename: ~
+
+# Book description using Markdown syntax.
+description: |
+  Description goes here.
+
+smart quotes: true # Convert ' and " to proper left and right quotes
+stretch cover image: false # Set to true to distort cover.jpg and fill screen
+
+# Lowest-level heading (H1, H2, H3, etc.) to appear in Table of Contents
+chapter head level: 2
+
+# Page margins given in Points. Use a value of '~' to retain Calibre defaults.
+# Calibre defaults are 5pt on top and bottom and 0pt on left and right.
+margin:
+  top: ~
+  left: 8
+  right: 8
+  bottom: ~
