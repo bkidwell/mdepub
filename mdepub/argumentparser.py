@@ -11,13 +11,16 @@ included in the Epub.
 
 epilog="""\
 actions:
-  create   Create empty project in this folder
-  html     Translate Markdown text to html
-  archive  Archive source files to zip file
-  epub     Convert HTML to Epub and include source zip file
-  clean    Delete output files except Epub package
-  newid    Assign a new ID for this project in options.yaml
-  version  Print mdepub version number
+  create       Create empty project in this folder
+  html         Translate Markdown text to html
+  archive      Archive source files to zip file
+  epub         Convert HTML to Epub and include source zip file
+  extract      Extract the source files from the given Epub file
+  tocalibre    Insert/update this Epub package in Calibre (not implemented)
+  fromcalibre  Extract Epub source from a Calibre record (not implemented)
+  clean        Delete output files except Epub package
+  newid        Assign a new ID for this project in options.yaml
+  version      Print mdepub version number
 
 required files:
   options.yaml  Project options
@@ -40,7 +43,8 @@ respective output files.
 def setup_args(parser):
     parser.add_argument(
         'action', nargs='+', metavar='action',
-        choices=['create', 'html', 'archive', 'epub', 'clean', 'newid', 'version'],
+        choices=['create', 'html', 'archive', 'epub', 'extract',
+        'clean', 'newid', 'version'],
         help="Which action to perform."
     )
     parser.add_argument(
@@ -50,6 +54,13 @@ def setup_args(parser):
     parser.add_argument(
         '--filename', help="Base filename for project files, when \
         creating a new project or to override the value in options.yaml"
+    )
+    parser.add_argument(
+        '--from', help="Path to Epub file for 'extract' action", dest='fromf'
+    )
+    parser.add_argument(
+        '--to', help="Path for 'extract' or 'fromcalibre' actions to extract\
+        Epub source files to (defaults to a subfolder of the current path)"
     )
 
 class ArgumentParser(argparse.ArgumentParser):
