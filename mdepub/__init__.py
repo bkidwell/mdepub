@@ -33,7 +33,7 @@ if os.path.exists(options_file):
         options['filename'] = filename.clean(options['title'])
     log.debug("Filename: %s", options['filename'])
 else:
-    options = yaml.load("")
+    options = yaml.load("dummy: 0")
     log.debug("options.yaml not found")
 
 arguments = ArgumentParser().parse_args()

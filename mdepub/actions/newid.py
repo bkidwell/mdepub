@@ -26,7 +26,7 @@ def run():
             r'\g<1>uuid:\g<2>' + str(new_id()) + r'\g<4>',
             txt
         )
-        print txt
+        #print txt
         with open("options.yaml", "w") as f: f.write(txt)
     else:
         # add new uuid field to end of file
