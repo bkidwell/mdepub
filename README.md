@@ -18,6 +18,10 @@ recompile.
 * Python 2.7
 * YAML for Python -- minimal config / serialization syntax
 
-Ubuntu packages for the above:
+Install Calibre on a Unix box:
+
+    sudo python -c "import sys; py3 = sys.version_info[0] > 2; u = __import__('urllib.request' if py3 else 'urllib', fromlist=1); exec(u.urlopen('http://status.calibre-ebook.com/linux_installer').read()); main()"
+
+Ubuntu packages for the rest of the requirements:
 
     sudo apt-get install pandoc python-beautifulsoup python-yaml
