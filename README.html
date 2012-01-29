@@ -58,6 +58,9 @@ ln --symbolic ~/Apps/mdepub/__main.py__ ~/bin/mdepub
 <p><strong>Extract an existing mdepub Epub file's source</strong> into a directory under the current directory (so you can edit and repackage it):</p>
 <pre><code>mdepub extract ~/Path/Filename.epub
 </code></pre>
+<p><strong>Get all command line help</strong>:</p>
+<pre><code>mdepub --help
+</code></pre>
 <h2 id="starting-your-markdown-source-file">Starting Your Markdown Source File</h2>
 <p>Metadata for the compiled Epub file is specified in <code>options.yaml</code>. See <code>doc/options.html</code> for details.</p>
 <p>mdepub assumes the entire ebook source text is contained in a single <code>.md</code>. Stylesheet information is given in a <code>.css</code> file with the same name. Any attached images can be included in an <code>images/</code> subdirectory in your project; be sure you link to the images in your source using relative paths, for example <code>images/author.jpg</code>.</p>

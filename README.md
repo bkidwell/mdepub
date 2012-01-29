@@ -94,6 +94,10 @@ the current directory (so you can edit and repackage it):
 
     mdepub extract ~/Path/Filename.epub
 
+**Get all command line help**:
+
+    mdepub --help
+
 
 ## Starting Your Markdown Source File
 
