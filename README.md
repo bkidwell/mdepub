@@ -23,6 +23,8 @@ recompile.
 * pandoc -- all purpose converter to and from Markdown syntax
 * Python 2.7
 * YAML for Python -- minimal config / serialization syntax
+* zip -- command line tool for writing/updating Zip files from the
+  InfoZip package
 
 Install Calibre on a Unix box:
 
