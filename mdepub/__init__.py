@@ -33,7 +33,7 @@ def init():
     global log
     global options_loaded
 
-    logging.basicConfig(level=logging.ERROR)
+    logging.basicConfig(level=logging.WARN)
     log = logging.getLogger('mdepub')
 
     project_path = os.getcwd()
