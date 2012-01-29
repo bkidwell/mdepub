@@ -27,6 +27,12 @@
 <p>Ubuntu packages for the rest of the requirements:</p>
 <pre><code>sudo apt-get install pandoc python-beautifulsoup python-yaml
 </code></pre>
+<h2 id="installation">Installation</h2>
+<p>No installation script is provided. The simplest way to install mdepub is to download the source as a <code>.zip</code> or <code>.tar.gz</code>, or <code>git clone</code>. Put the package files in <code>~/Apps/mdepub</code> and then do this:</p>
+<pre><code>chmod +x ~/Apps/mdepub/__main__.py
+ln --symbolic ~/Apps/mdepub/__main.py__ ~/bin/mdepub
+</code></pre>
+<p>(Make sure <code>~/bin</code> is in your $PATH variable when you run <code>mdepub</code>.)</p>
 <h2 id="usage">Usage</h2>
 <p><strong>Create an empty Epub project</strong>:</p>
 <pre><code>mdepub create
