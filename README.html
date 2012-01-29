@@ -47,9 +47,9 @@
 <pre><code>mdepub extract ~/Path/Filename.epub
 </code></pre>
 <h2 id="starting-your-markdown-source-file">Starting Your Markdown Source File</h2>
-<p>Metadata for the compiled Epub file is specified in <code>options.yaml</code>. See <a href="doc/options.html">doc/options.html</a> for details.</p>
+<p>Metadata for the compiled Epub file is specified in <code>options.yaml</code>. See <code>doc/options.html</code> for details.</p>
 <p>mdepub assumes the entire ebook source text is contained in a single <code>.md</code>. Stylesheet information is given in a <code>.css</code> file with the same name. Any attached images can be included in an <code>images/</code> subdirectory in your project; be sure you link to the images in your source using relative paths, for example <code>images/author.jpg</code>.</p>
-<p>mdepub uses Pandoc to convert Markdown syntax to strict XHTML. If you are not familiar with Markdown, see this <a href="doc/pandoc_markdown.html">cheat sheet</a>.</p>
+<p>mdepub uses Pandoc to convert Markdown syntax to strict XHTML. If you are not familiar with Markdown, see the cheat sheet in <code>doc/pandoc_markdown.html</code>.</p>
 <p>If you're starting a project from text that's already in a computer file or files, it's a good idea to include that in your project in an <code>upstream</code> directory. In case you ever have to refer back to it, this directory will be included in the <code>source.mdepub.zip</code> along with all other project files when you compile the Epub file. If your source is in a format that Pandoc can read, such as HTML, you can use Pandoc to convert it to Markdown to get you started. See <a href="http://johnmacfarlane.net/pandoc/README.html">Pandoc's User Guide</a> for details.</p>
 <p><strong>Headings:</strong> There should only be one H1 (denoted by a single <code>#</code> in Markdown) in your source file; this is the title of the book. Front matter should be placed before the first chapter heading (<code>##</code>).</p>
 <p><strong>Page breaks:</strong> Each chapter will start with a page break. Additional page breaks can be added by wrapping a block of text in</p>

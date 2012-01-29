@@ -70,7 +70,7 @@ the current directory (so you can edit and repackage it):
 
 
 Metadata for the compiled Epub file is specified in `options.yaml`. See
-[doc/options.html](doc/options.html) for details.
+`doc/options.html` for details.
 
 mdepub assumes the entire ebook source text is contained in a single
 `.md`. Stylesheet information is given in a `.css` file with the same
@@ -79,8 +79,8 @@ in your project; be sure you link to the images in your source using
 relative paths, for example `images/author.jpg`.
 
 mdepub uses Pandoc to convert Markdown syntax to strict XHTML. If you
-are not familiar with Markdown, see this
-[cheat sheet](doc/pandoc_markdown.html).
+are not familiar with Markdown, see the cheat sheet in
+`doc/pandoc_markdown.html`.
 
 If you're starting a project from text that's already in a computer file
 or files, it's a good idea to include that in your project in an
