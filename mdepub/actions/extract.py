@@ -31,7 +31,7 @@ def run():
     fromf = abspath(arguments.fromfile)
 
     with ZipFile(fromf, 'r') as epub:
-        with epub.open("META-INF/source.mdepub.zip", 'r') as src_item:
+        with epub.open("META-INF/source/mdepub_source.zip", 'r') as src_item:
             src_stream = StringIO(src_item.read())
 
     with ZipFile(src_stream, 'r') as src_zip:

@@ -116,7 +116,7 @@ def run():
     metadata = None
     with ZipFile(getFN("epub"), 'a') as zip:
         if arguments.source:
-            zip.write(getFN("zip"), "META-INF/source.mdepub.zip")
+            zip.write(getFN("zip"), "META-INF/source/mdepub_source.zip")
         metadata = zip.read("content.opf")
     shell.run(["zip", "-d", getFN("epub"), "content.opf"])
     with ZipFile(getFN("epub"), 'a') as zip:
