@@ -32,7 +32,13 @@
 <pre><code>chmod +x ~/Apps/mdepub/__main__.py
 ln --symbolic ~/Apps/mdepub/__main.py__ ~/bin/mdepub
 </code></pre>
-<p>(Make sure <code>~/bin</code> is in your $PATH variable when you run <code>mdepub</code>.)</p>
+<p>(Make sure <code>~/bin</code> is in your <code>$PATH</code> variable when you run <code>mdepub</code>.)</p>
+<h3 id="windows">Windows</h3>
+<p><code>mdepub</code> should work in Windows as well. Make sure all your requirements are installed and make sure you can run <code>python</code>, <code>pandoc</code>, and <code>ebook-convert</code> by just calling their name from the command line. (You probably will have to edit your <code>$PATH</code> environment variable.)</p>
+<p>To invoke <code>mdepub</code>, you can either do</p>
+<pre><code>python -m [path to...]\mdepub.zip [mdepub arguments]
+</code></pre>
+<p>Or create a batch file in your <code>$PATH</code> that calls Python in this way and passes command line arguments through to mdepub.</p>
 <h2 id="usage">Usage</h2>
 <p><strong>Create an empty Epub project</strong>:</p>
 <pre><code>mdepub create

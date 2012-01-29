@@ -43,7 +43,23 @@ the package files in `~/Apps/mdepub` and then do this:
     chmod +x ~/Apps/mdepub/__main__.py
     ln --symbolic ~/Apps/mdepub/__main.py__ ~/bin/mdepub
 
-(Make sure `~/bin` is in your $PATH variable when you run `mdepub`.)
+(Make sure `~/bin` is in your `$PATH` variable when you run `mdepub`.)
+
+
+### Windows
+
+
+`mdepub` should work in Windows as well. Make sure all your requirements
+are installed and make sure you can run `python`, `pandoc`, and
+`ebook-convert` by just calling their name from the command line. (You
+probably will have to edit your `$PATH` environment variable.)
+
+To invoke `mdepub`, you can either do
+
+    python -m [path to...]\mdepub.zip [mdepub arguments]
+
+Or create a batch file in your `$PATH` that calls Python in this way and
+passes command line arguments through to mdepub.
 
 
 ## Usage
