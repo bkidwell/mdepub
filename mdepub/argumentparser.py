@@ -27,7 +27,7 @@ required files:
   options.yaml  Project options
   $filename.md  Book text in Markdown format
 
-option files:
+optional files:
   cover.[png|jpg|svg]  Cover image
   $filename.css        CSS stylesheet
 
