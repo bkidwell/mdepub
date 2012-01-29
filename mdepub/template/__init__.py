@@ -1,5 +1,9 @@
 """Module containing template files for creating a new project."""
 
-import os.path
+import pkgutil
+import sys
 
-template_path = os.path.dirname(__file__)
+def get_file_content(filename):
+    """Get contents of file named by filename, in template package."""
+
+    return pkgutil.get_data(__name__, filename)
