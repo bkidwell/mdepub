@@ -1,17 +1,19 @@
+"""Translate Markdown text to html."""
+
+from BeautifulSoup import BeautifulSoup
 import logging
-import mdepub
-from mdepub import shell
 import os
 import os.path
-from mdepub import options
-from mdepub import project_path
-from BeautifulSoup import BeautifulSoup
-from mdepub.filename import getFN
 import sys
+import mdepub
+from mdepub import shell
+from mdepub.filename import getFN
 
 log = logging.getLogger('html')
 
 def checkForBadLinks(html):
+    """Find all internal bookmarks pointed to by hrefs in html, and make sure they are valid."""
+
     soup = BeautifulSoup(html)
 
     ids = [tag['id'] for tag in soup.findAll(id=True)]
@@ -24,6 +26,11 @@ def checkForBadLinks(html):
                 log.warn("Internal link points to non-existent target '{}'".format(href))
 
 def run():
+    """Run this action."""
+
+    options = mdepub.options
+    project_path = mdepub.project_path
+
     log.debug("run()")
     mdepub.require_opts_file()
 

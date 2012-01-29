@@ -1,19 +1,22 @@
-import logging
-import mdepub
-from mdepub import options
-from mdepub.filename import getFN
-from mdepub.filename import clean
-import os
+"""Create empty project in this folder."""
+
 from datetime import date
+import logging
+import os
+from os.path import join, dirname, exists
+import re
 import sys
 import shutil
-from os.path import join, dirname, exists
-from template import template_path
-import re
+import mdepub
+from mdepub.filename import clean
+from mdepub.filename import getFN
+from mdepub.template import template_path
 
 log = logging.getLogger('create')
 
 def run():
+    """Run this action."""
+
     log.debug("run()")
 
     print "Book title?"
@@ -21,11 +24,11 @@ def run():
     print "Author(s)?"
     author = raw_input("> ")
     print "Path to new book project files?\n[default: current directory]"
-    path = raw_input("> ")
+    path = raw_input("> ") or "."
 
     today = re.sub("^0", "", date.today().strftime("%d %b %Y"))
     uuid = mdepub.new_id()
-    filename = options.get("filename") or clean(title)
+    filename = mdepub.options.get("filename") or clean(title)
 
     log.debug("Creating project in \"%s\".", path)
     if not exists(path):

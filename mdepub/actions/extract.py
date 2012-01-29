@@ -1,28 +1,34 @@
+"""Extract the source files from the given Epub file."""
+
 import logging
-from os.path import join, exists, abspath, dirname
 import os
-import mdepub
-from mdepub import arguments
-from mdepub import project_path
-from mdepub.filename import getFN
-from mdepub.filename import clean
-import sys
-from zipfile import ZipFile
+from os.path import join, exists, abspath, dirname
 from StringIO import StringIO
+import sys
 import yaml
+from zipfile import ZipFile
+
+import mdepub
+from mdepub.filename import clean
+from mdepub.filename import getFN
 
 log = logging.getLogger('extract')
 
 def run():
+    """Run this action."""
+
     log.debug("run()")
 
     old_cwd = os.getcwd()
 
-    if arguments.fromf is None:
+    arguments = mdepub.arguments
+    project_path = mdepub.project_path
+
+    if arguments.fromfile is None:
         log.fatal("No input file specified.")
         sys.exit(0)
 
-    fromf = abspath(arguments.fromf)
+    fromf = abspath(arguments.fromfile)
 
     with ZipFile(fromf, 'r') as epub:
         with epub.open("META-INF/source.mdepub.zip", 'r') as src_item:

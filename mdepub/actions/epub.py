@@ -1,22 +1,29 @@
+"""Convert HTML to Epub and include source zip file."""
+
+from BeautifulSoup import BeautifulSoup
 import logging
+import os
+import sys
+import uuid
+from zipfile import ZipFile
 import mdepub
 from mdepub import shell
-import os
-from mdepub import options
-from mdepub import project_path
-from mdepub import arguments
-from zipfile import ZipFile
-from BeautifulSoup import BeautifulSoup
 from mdepub.filename import getFN
-import uuid
-import sys
 
 log = logging.getLogger('epub')
 
 def quote(text):
+    """Change " to '."""
+
     return text.replace('"', '\'')
 
 def run():
+    """Run this action."""
+
+    options = mdepub.options
+    project_path = mdepub.project_path
+    arguments = mdepub.arguments
+
     log.debug("run()")
     mdepub.require_opts_file()
     os.chdir(project_path)

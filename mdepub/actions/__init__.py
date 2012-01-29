@@ -1,8 +1,10 @@
-import clean
-import html
-import epub
+"""mdepub actions -- these modules do the actual work."""
+
 import archive
+import clean
+import create
+import epub
+import extract
+import html
 import newid
 import version
-import create
-import extract

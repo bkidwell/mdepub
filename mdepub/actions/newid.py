@@ -1,10 +1,10 @@
+"""Assign a new ID for this project in options.yaml."""
+
 import logging
+import os
+import re
 import mdepub
 from mdepub import new_id
-from mdepub import project_path
-from mdepub import options
-import re
-import os
 
 log = logging.getLogger('newid')
 
@@ -14,11 +14,15 @@ r_uuid = re.compile(
 )
 
 def run():
+    """Run this action."""
+
+    options = mdepub.options
+    project_path = mdepub.project_path
+
     log.debug("run()")
     mdepub.require_opts_file()
     os.chdir(project_path)
 
-    print mdepub.options
     if 'uuid' in options:
         # replace existing uuid
         with open("options.yaml", "r") as f: txt = f.read()

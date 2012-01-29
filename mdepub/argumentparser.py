@@ -1,6 +1,9 @@
-import logging
+"""Module for handling mdepub command line arguments."""
+
 import argparse
+import logging
 import textwrap
+import mdepub
 
 log = logging.getLogger('argumentparser')
 
@@ -16,8 +19,6 @@ actions:
   archive      Archive source files to zip file
   epub         Convert HTML to Epub and include source zip file
   extract      Extract the source files from the given Epub file
-  tocalibre    Insert/update this Epub package in Calibre (not implemented)
-  fromcalibre  Extract Epub source from a Calibre record (not implemented)
   clean        Delete output files except Epub package
   newid        Assign a new ID for this project in options.yaml
   version      Print mdepub version number
@@ -41,6 +42,8 @@ respective output files.
 """
 
 def setup_args(parser):
+    """Add mdepub argument structure to an instance of ArgumentParser."""
+
     parser.add_argument(
         'action', nargs='+', metavar='action',
         choices=['create', 'html', 'archive', 'epub', 'extract',
@@ -56,17 +59,19 @@ def setup_args(parser):
         creating a new project or to override the value in options.yaml"
     )
     parser.add_argument(
-        '--from', help="Path to Epub file for 'extract' action", dest='fromf'
+        '--from', help="Path to Epub file for 'extract' action", dest='fromfile'
     )
     parser.add_argument(
         '--to', help="Path for 'extract' or 'fromcalibre' actions to extract\
-        Epub source files to (defaults to a subfolder of the current path)"
+        Epub source files to (defaults to a subfolder of the current path)", dest='to'
     )
 
 class ArgumentParser(argparse.ArgumentParser):
+    """Extend argparse.ArgumentParser with the argument structure for mdepub."""
+
     def __init__(self):
         super(ArgumentParser, self).__init__(
             formatter_class=argparse.RawDescriptionHelpFormatter,
-            description=help, epilog=epilog
+            description=help, epilog=epilog, prog=mdepub.PROGRAM_NAME
         )
         setup_args(self)
