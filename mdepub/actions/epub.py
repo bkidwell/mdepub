@@ -15,7 +15,7 @@ log = logging.getLogger('epub')
 def quote(text):
     """Change " to '."""
 
-    return text.replace('"', '\'')
+    return unicode(text).replace('"', '\\"')
 
 def run():
     """Run this action."""
@@ -76,6 +76,9 @@ def run():
         ('title-sort',    'title sort'),
     ):
         if options.get(b): args.append("--{}=\"{}\"".format(a, quote(options[b])))
+
+    if description:
+        args.append(  "--comments=\"{}\"".format(quote(description))  )
 
     if options.get("tags"):
         args.append(  "--tags=\"{}\"".format(quote(','.join(options['tags'])))  )
