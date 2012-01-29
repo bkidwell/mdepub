@@ -1,0 +1,54 @@
+<h1 id="markdown-epub-builder">Markdown Epub Builder</h1>
+<p><code>mdepub</code> is a tool which allows you to compose a book in Markdown format and use Pandoc and Calibre to compile an Epub package including all of the book's source material. In effect you can keep the source and product in the same file in your library; if you ever want to revise the product, you merely need to extract the source, make edits, and recompile.</p>
+<pre><code>Markdown sourcecode --&gt; | Epub file:            |
+                        |   * validated XHTML   |
+                        |   * metadata          |
+                        |   * Markdown sourcode |
+</code></pre>
+<h2 id="requirements">Requirements</h2>
+<ul>
+<li>Beautiful Soup -- HTML/XML stream parsing and manipulation for Python</li>
+<li>Calibre (Calibre's <code>ebook-convert</code> command is used to manipulate and build EPUB package files.)</li>
+<li>pandoc -- all purpose converter to and from Markdown syntax</li>
+<li>Python 2.7</li>
+<li>YAML for Python -- minimal config / serialization syntax</li>
+</ul>
+<p>Install Calibre on a Unix box:</p>
+<pre><code>sudo python -c &quot;import sys; py3 = sys.version_info[0] &gt; 2; u = __import__('urllib.request' if py3 else 'urllib', fromlist=1); exec(u.urlopen('http://status.calibre-ebook.com/linux_installer').read()); main()&quot;
+</code></pre>
+<p>Ubuntu packages for the rest of the requirements:</p>
+<pre><code>sudo apt-get install pandoc python-beautifulsoup python-yaml
+</code></pre>
+<h2 id="usage">Usage</h2>
+<p><strong>Create an empty Epub project</strong>:</p>
+<pre><code>mdepub create
+# Interactively enter Title, Author(s), and project directory (&quot;.&quot; default).
+</code></pre>
+<p>The <code>create</code> command copies boilerplate code into <code>$title.md</code>, <code>$title.css</code>, and <code>options.yaml</code> in the project directory.</p>
+<p><strong>Compile ebook project into HTML</strong> (good for quick preview):</p>
+<pre><code>mdepub html
+</code></pre>
+<p><strong>Compile ebook project into Epub</strong>:</p>
+<pre><code>mdepub epub
+</code></pre>
+<p>All source files in the project directory are included in the Epub package as <code>META-INF/source.mdepub.zip</code>.</p>
+<p><strong>Delete derived files</strong> (html, epub) leaving only source:</p>
+<pre><code>mdepub clean
+</code></pre>
+<p><strong>Extract an existing mdepub Epub file's source</strong> into a directory under the current directory (so you can edit and repackage it):</p>
+<pre><code>mdepub extract ~/Path/Filename.epub
+</code></pre>
+<h2 id="starting-your-markdown-source-file">Starting Your Markdown Source File</h2>
+<p>Metadata for the compiled Epub file is specified in <code>options.yaml</code>. See <a href="doc/options.html">doc/options.html</a> for details.</p>
+<p>mdepub assumes the entire ebook source text is contained in a single <code>.md</code>. Stylesheet information is given in a <code>.css</code> file with the same name. Any attached images can be included in an <code>images/</code> subdirectory in your project; be sure you link to the images in your source using relative paths, for example <code>images/author.jpg</code>.</p>
+<p>mdepub uses Pandoc to convert Markdown syntax to strict XHTML. If you are not familiar with Markdown, see this <a href="doc/pandoc_markdown.html">cheat sheet</a>.</p>
+<p>If you're starting a project from text that's already in a computer file or files, it's a good idea to include that in your project in an <code>upstream</code> directory. In case you ever have to refer back to it, this directory will be included in the <code>source.mdepub.zip</code> along with all other project files when you compile the Epub file. If your source is in a format that Pandoc can read, such as HTML, you can use Pandoc to convert it to Markdown to get you started. See <a href="http://johnmacfarlane.net/pandoc/README.html">Pandoc's User Guide</a> for details.</p>
+<p><strong>Headings:</strong> There should only be one H1 (denoted by a single <code>#</code> in Markdown) in your source file; this is the title of the book. Front matter should be placed before the first chapter heading (<code>##</code>).</p>
+<p><strong>Page breaks:</strong> Each chapter will start with a page break. Additional page breaks can be added by wrapping a block of text in</p>
+<pre><code>&lt;div class=&quot;break&quot;&gt;
+&lt;/div&gt;
+</code></pre>
+<p><strong>Internal hyperlinks:</strong> Hyperlinks to named sections follow the Pandoc's rules for HTML names of sections (see Pandoc's User Guide). For example, to link to a chapter named &quot;Chapter III A Caucus-Race and a Long Tale&quot;, write:</p>
+<pre><code>[A Caucus-Race and a Long Tale](#chapter-iii-a-caucus-race-and-a-long-tale)
+</code></pre>
+<p>Check out the sample <em>Alice in Wonderland</em> project in mdepub's <code>sample</code> directory for specific examples of use of Pandoc's Markdown and mdepub's stylesheet to lay out an ebook.</p>

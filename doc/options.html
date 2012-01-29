@@ -1,0 +1,72 @@
+<h1 id="mdepub-help-for-options.yaml">mdepub: Help for options.yaml</h1>
+<p>This file lists the options found in an mdepub <code>options.yaml</code> file.</p>
+<dl>
+<dt>title</dt>
+<dd><p>Title of the ebook.</p>
+</dd>
+<dt>title sort</dt>
+<dd><p>The value used to sort the title in a database, for example <code>title sort</code> for &quot;The Giver&quot; would be &quot;Giver, The&quot;. Specify a null value (the single character &quot;~&quot;) if it would be the same as <code>title</code>.</p>
+</dd>
+<dt>authors</dt>
+<dd><p>Comma or semicolon separated list of authors.</p>
+</dd>
+<dt>author sort</dt>
+<dd><p>Usually &quot;Lastname, Firstname&quot; of the first author, or &quot;~&quot; to copy the <code>authors</code> field.</p>
+</dd>
+<dt>publication date</dt>
+<dd><p>Date the source material was published, in the format &quot;D MMM YYYY&quot;.</p>
+</dd>
+<dt>publisher</dt>
+<dd><p>Name of the publisher.</p>
+</dd>
+<dt>book producer</dt>
+<dd><p>Who produced this Epub file.</p>
+</dd>
+<dt>isbn</dt>
+<dd><p>Any relevant ISBN number that may appy, or &quot;~&quot; for none.</p>
+</dd>
+<dt>language</dt>
+<dd><p>Primary language of this ebook.</p>
+</dd>
+<dt>rating</dt>
+<dd><p>Your personal rating, which will be imported into Calibre. &quot;~&quot; or 1 through 5.</p>
+</dd>
+<dt>series</dt>
+<dd><p>Name of the series this ebook belongs to or &quot;~&quot; for none.</p>
+</dd>
+<dt>series index</dt>
+<dd><p>Book number within the series or &quot;~&quot; for none.</p>
+</dd>
+<dt>uuid</dt>
+<dd><p>The UUID of this Epub file. mdepub automatically gives each new project a random UUID.</p>
+</dd>
+<dt>tags</dt>
+<dd><p>A comma-separated list of tags that can help you browse your ebook collection in a tool like Calibre, or &quot;~&quot; for no tags. The list must begin and end with square brackets, and each tag should be a single word. Use hyphens instead of spaces for multiple-word tags. Example:</p>
+<pre><code>[fiction, historical-fiction, boston]
+</code></pre>
+</dd>
+<dt>filename</dt>
+<dd><p>Customize the MD, HTML, CSS, and EPUB filenames, or &quot;~&quot; for default, based on `title.</p>
+</dd>
+<dt>description</dt>
+<dd><p>Enter the book description here, in Markdown syntax. Yaml allows long, multiple-paragraph strings by prefixing the string with a &quot;|&quot; and then prefixing each line of the string with at least one space. Example:</p>
+<pre><code>description: |
+  This is the first paragraph of the book description.
+
+  This is another paragraph.
+</code></pre>
+</dd>
+<dt>smart quotes</dt>
+<dd><p>Automatically convert <code>'</code> and <code>&quot;</code> to proper left and right quote marks, and also handle dashes and ellipses; <code>true</code> or <code>false</code>. Turn this off if it doesn't work correctly for your source material.</p>
+</dd>
+<dt>stretch cover image</dt>
+<dd><p>Distort cover image to fill entire screen; <code>true</code> or <code>false</code>. The default <code>false</code> fills the screen with the cover but adds white bars to prevent stretching of the image.</p>
+</dd>
+</dl>
+<p>chapter head level</p>
+<p>: Lowest chapter heading level to include in the table of contents. For example, <code>2</code> will include the title H1, and only H2 level chapter headings. <code>3</code> would additionally include section-level H3s that appear under chapter H2s.</p>
+<dl>
+<dt>margin</dt>
+<dd>A dictionary of four named values, <code>top</code>, <code>left</code>, <code>right</code>, and <code>bottom</code>. Null &quot;~&quot; values mean to use Calibre's defaults. I prefer left and right margins of <code>8</code>, so I hard-coded those values into the mdepub project template.
+</dd>
+</dl>
