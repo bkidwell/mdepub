@@ -13,7 +13,7 @@ from mdepub.filename import getFN
 log = logging.getLogger('epub')
 
 def quote(text):
-    """Change " to '."""
+    """Change " to \\"."""
 
     return unicode(text).replace('"', '\\"')
 
